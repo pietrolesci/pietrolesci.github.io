@@ -2,40 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Pietro Lesci</title>
-    <link>https://lescipi.github.io/project/</link>
+    <link>https://pietrolesci.github.io/project/</link>
     <description>Recent content in Projects on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 24 Jun 2019 17:09:11 +0200</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Tue, 24 Nov 2020 17:09:11 +0200</lastBuildDate><atom:link href="https://pietrolesci.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MACE</title>
+      <link>https://pietrolesci.github.io/project/mace/</link>
+      <pubDate>Tue, 24 Nov 2020 17:09:11 +0200</pubDate>
+      
+      <guid>https://pietrolesci.github.io/project/mace/</guid>
+      <description>When evaluating redundant annotations (like those from Amazon&amp;rsquo;s MechanicalTurk), we usually want to (i) aggregate annotations to recover the most likely answer, (ii) find out which annotators are trustworthy, (iii) evaluate item and task difficulty. MACE solves all of these problems, by learning competence estimates for each annotators and computing the most likely answer based on those competences.</description>
+    </item>
     
     <item>
       <title>Thesis</title>
-      <link>https://lescipi.github.io/project/thesis/</link>
+      <link>https://pietrolesci.github.io/project/thesis/</link>
       <pubDate>Mon, 24 Jun 2019 17:09:11 +0200</pubDate>
       
-      <guid>https://lescipi.github.io/project/thesis/</guid>
+      <guid>https://pietrolesci.github.io/project/thesis/</guid>
       <description>Neural Process implementation in &lt;code&gt;Pytorch&lt;/code&gt;</description>
     </item>
     
     <item>
       <title>Wordify</title>
-      <link>https://lescipi.github.io/project/wordify/</link>
+      <link>https://pietrolesci.github.io/project/wordify/</link>
       <pubDate>Mon, 24 Jun 2019 17:09:11 +0200</pubDate>
       
-      <guid>https://lescipi.github.io/project/wordify/</guid>
+      <guid>https://pietrolesci.github.io/project/wordify/</guid>
       <description>Wordify is an online textual processing tool that allows to find out which terms are most indicative for each dependent variable values.</description>
     </item>
     
     <item>
       <title>Statistical Concepts with R</title>
-      <link>https://lescipi.github.io/project/statistical_concepts_r/</link>
+      <link>https://pietrolesci.github.io/project/statistical_concepts_r/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/project/statistical_concepts_r/</guid>
+      <guid>https://pietrolesci.github.io/project/statistical_concepts_r/</guid>
       <description>Book written with &lt;code&gt;bookdown&lt;/code&gt; about elementary statistical concepts.</description>
     </item>
     

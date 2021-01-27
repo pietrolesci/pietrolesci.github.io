@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on Pietro Lesci</title>
-    <link>https://lescipi.github.io/slides/</link>
+    <link>https://pietrolesci.github.io/slides/</link>
     <description>Recent content in Slides on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pietrolesci.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slides</title>
-      <link>https://lescipi.github.io/slides/example/</link>
+      <link>https://pietrolesci.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/slides/example/</guid>
+      <guid>https://pietrolesci.github.io/slides/example/</guid>
       <description>An introduction to using Academic&amp;rsquo;s Slides feature.</description>
     </item>
     

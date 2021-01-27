@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pietro Lesci</title>
-    <link>https://lescipi.github.io/</link>
+    <link>https://pietrolesci.github.io/</link>
     <description>Recent content on Pietro Lesci</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
+    <copyright>&amp;copy; 2021</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://lescipi.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pietrolesci.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://lescipi.github.io/talk/</link>
+      <link>https://pietrolesci.github.io/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/talk/</guid>
+      <guid>https://pietrolesci.github.io/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://lescipi.github.io/project/</link>
-      <pubDate>Mon, 24 Jun 2019 17:09:11 +0200</pubDate>
+      <link>https://pietrolesci.github.io/project/</link>
+      <pubDate>Tue, 24 Nov 2020 17:09:11 +0200</pubDate>
       
-      <guid>https://lescipi.github.io/project/</guid>
+      <guid>https://pietrolesci.github.io/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://lescipi.github.io/post/</link>
+      <link>https://pietrolesci.github.io/post/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/post/</guid>
+      <guid>https://pietrolesci.github.io/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>https://lescipi.github.io/courses/</link>
+      <link>https://pietrolesci.github.io/courses/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>https://lescipi.github.io/courses/</guid>
+      <guid>https://pietrolesci.github.io/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://lescipi.github.io/slides/</link>
+      <link>https://pietrolesci.github.io/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/slides/</guid>
+      <guid>https://pietrolesci.github.io/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://lescipi.github.io/publication/</link>
+      <link>https://pietrolesci.github.io/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/publication/</guid>
+      <guid>https://pietrolesci.github.io/publication/</guid>
       <description></description>
     </item>
     

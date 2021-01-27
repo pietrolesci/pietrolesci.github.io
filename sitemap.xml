@@ -3,104 +3,109 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lescipi.github.io/courses/example/example1/</loc>
+    <loc>https://pietrolesci.github.io/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/courses/example/</loc>
+    <loc>https://pietrolesci.github.io/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/courses/example/example2/</loc>
+    <loc>https://pietrolesci.github.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/talk/example/</loc>
+    <loc>https://pietrolesci.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/</loc>
+    <loc>https://pietrolesci.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/talk/</loc>
+    <loc>https://pietrolesci.github.io/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/project/</loc>
+    <loc>https://pietrolesci.github.io/project/mace/</loc>
+    <lastmod>2020-11-24T17:09:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pietrolesci.github.io/project/</loc>
+    <lastmod>2020-11-24T17:09:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pietrolesci.github.io/project/thesis/</loc>
     <lastmod>2019-06-24T17:09:11+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/project/thesis/</loc>
+    <loc>https://pietrolesci.github.io/project/wordify/</loc>
     <lastmod>2019-06-24T17:09:11+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/project/wordify/</loc>
-    <lastmod>2019-06-24T17:09:11+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lescipi.github.io/authors/admin/</loc>
+    <loc>https://pietrolesci.github.io/authors/admin/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/authors/</loc>
+    <loc>https://pietrolesci.github.io/authors/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/post/mcmc_tfp/</loc>
+    <loc>https://pietrolesci.github.io/post/mcmc_tfp/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/post/</loc>
+    <loc>https://pietrolesci.github.io/post/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/courses/</loc>
+    <loc>https://pietrolesci.github.io/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/slides/</loc>
+    <loc>https://pietrolesci.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/slides/example/</loc>
+    <loc>https://pietrolesci.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/project/statistical_concepts_r/</loc>
+    <loc>https://pietrolesci.github.io/project/statistical_concepts_r/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/categories/</loc>
+    <loc>https://pietrolesci.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/publication_types/</loc>
+    <loc>https://pietrolesci.github.io/publication_types/</loc>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/publication/</loc>
+    <loc>https://pietrolesci.github.io/publication/</loc>
   </url>
   
   <url>
-    <loc>https://lescipi.github.io/tags/</loc>
+    <loc>https://pietrolesci.github.io/tags/</loc>
   </url>
   
 </urlset>

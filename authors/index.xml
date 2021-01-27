@@ -2,24 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Pietro Lesci</title>
-    <link>https://lescipi.github.io/authors/</link>
+    <link>https://pietrolesci.github.io/authors/</link>
     <description>Recent content in Authors on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pietrolesci.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://lescipi.github.io/authors/admin/</link>
+      <link>https://pietrolesci.github.io/authors/admin/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/authors/admin/</guid>
-      <description>I graduated in Economic and Social Sciences at Bocconi University in 2019. In my thesis, I worked on the statistical interpretation of deep learning models.
-Since 2019, I am a Research Assistant at the Bocconi Institute for Data Science and Analytics where I work in Natural Language Processing, a subfield of artificial intelligence. My research focuses on developing machine learning models capable of general linguistic intelligence. I am interested in building computational systems able to continually learn and adapt to new domains.</description>
+      <guid>https://pietrolesci.github.io/authors/admin/</guid>
+      <description>Hi! I am Pietro Lesci, a senior associate in data science at Bain &amp;amp; Company in Milan, Italy. While working towards my Msc in Economic and Social Sciences at Bocconi University, I have worked as a trainee in data science at the European Central Bank in Frankfurt am Main, Germany. After graduation, I started collaborating as a research assistant in Natural Language Processing at the Bocconi Institute for Data Science and Analytics with Prof Dirk Hovy in Milan, Italy.</description>
     </item>
     
   </channel>

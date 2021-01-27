@@ -2,15 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses on Pietro Lesci</title>
-    <link>https://lescipi.github.io/courses/</link>
+    <link>https://pietrolesci.github.io/courses/</link>
     <description>Recent content in Courses on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate><atom:link href="https://pietrolesci.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

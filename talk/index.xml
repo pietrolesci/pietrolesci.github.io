@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Pietro Lesci</title>
-    <link>https://lescipi.github.io/talk/</link>
+    <link>https://pietrolesci.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><atom:link href="https://pietrolesci.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Talk</title>
-      <link>https://lescipi.github.io/talk/example/</link>
+      <link>https://pietrolesci.github.io/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/talk/example/</guid>
+      <guid>https://pietrolesci.github.io/talk/example/</guid>
       <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
     </item>
     

@@ -2,22 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pietro Lesci</title>
-    <link>https://lescipi.github.io/post/</link>
+    <link>https://pietrolesci.github.io/post/</link>
     <description>Recent content in Posts on Pietro Lesci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lescipi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pietrolesci.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bayesian Inference with MCMC</title>
-      <link>https://lescipi.github.io/post/mcmc_tfp/</link>
+      <link>https://pietrolesci.github.io/post/mcmc_tfp/</link>
       <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lescipi.github.io/post/mcmc_tfp/</guid>
+      <guid>https://pietrolesci.github.io/post/mcmc_tfp/</guid>
       <description>MCMC sampling: The Random-Walk Metropolis-Hasting algorithm explained with TensorFlow-Probability</description>
     </item>
     

@@ -30,7 +30,7 @@
   <meta name="description" content="MCMC sampling: The Random-Walk Metropolis-Hasting algorithm explained with TensorFlow-Probability">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://lescipi.github.io/post/mcmc_tfp/">
+  <link rel="alternate" hreflang="en-us" href="https://pietrolesci.github.io/post/mcmc_tfp/">
 
   
 
@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.f4f0c078e6960d39062d5b7bf86922c9.css">
+  <link rel="stylesheet" href="/css/academic.min.d35e8c9489ab76dd5bcd60e3b1b61168.css">
 
   
 
@@ -95,7 +95,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://lescipi.github.io/post/mcmc_tfp/">
+  <link rel="canonical" href="https://pietrolesci.github.io/post/mcmc_tfp/">
 
   
   
@@ -109,9 +109,9 @@
   <meta property="twitter:creator" content="@lescipi">
   
   <meta property="og:site_name" content="Pietro Lesci">
-  <meta property="og:url" content="https://lescipi.github.io/post/mcmc_tfp/">
+  <meta property="og:url" content="https://pietrolesci.github.io/post/mcmc_tfp/">
   <meta property="og:title" content="Bayesian Inference with MCMC | Pietro Lesci">
-  <meta property="og:description" content="MCMC sampling: The Random-Walk Metropolis-Hasting algorithm explained with TensorFlow-Probability"><meta property="og:image" content="https://lescipi.github.io/post/mcmc_tfp/featured.png">
+  <meta property="og:description" content="MCMC sampling: The Random-Walk Metropolis-Hasting algorithm explained with TensorFlow-Probability"><meta property="og:image" content="https://pietrolesci.github.io/post/mcmc_tfp/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-06-19T00:00:00&#43;00:00">
@@ -318,6 +318,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
 
       </ul>
 
@@ -485,35 +489,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Bayesian%20Inference%20with%20MCMC&amp;url=https%3a%2f%2flescipi.github.io%2fpost%2fmcmc_tfp%2f"
+         href="https://twitter.com/intent/tweet?text=Bayesian%20Inference%20with%20MCMC&amp;url=https%3a%2f%2fpietrolesci.github.io%2fpost%2fmcmc_tfp%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flescipi.github.io%2fpost%2fmcmc_tfp%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fpietrolesci.github.io%2fpost%2fmcmc_tfp%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flescipi.github.io%2fpost%2fmcmc_tfp%2f&amp;title=Bayesian%20Inference%20with%20MCMC"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpietrolesci.github.io%2fpost%2fmcmc_tfp%2f&amp;title=Bayesian%20Inference%20with%20MCMC"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flescipi.github.io%2fpost%2fmcmc_tfp%2f&amp;title=Bayesian%20Inference%20with%20MCMC"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fpietrolesci.github.io%2fpost%2fmcmc_tfp%2f&amp;title=Bayesian%20Inference%20with%20MCMC"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Bayesian%20Inference%20with%20MCMC&amp;body=https%3a%2f%2flescipi.github.io%2fpost%2fmcmc_tfp%2f">
+         href="mailto:?subject=Bayesian%20Inference%20with%20MCMC&amp;body=https%3a%2f%2fpietrolesci.github.io%2fpost%2fmcmc_tfp%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -741,7 +745,7 @@ sns<span style="color:#f92672">.</span>despine();
 <p>From a Bayesian viewpoint, we have to define a prior distribution for this parameter, i.e. $P(\theta)$. Let&rsquo;s also assume a normal distribution as a prior for $\mu$. Our model can be written as follows (we assumed that the prior is a Gaussian distribution with mean 4 and stardard deviation 2)</p>
 <p>$$x_i|\mu \stackrel{i.i.d.}{\sim} \mathcal{N}(\mu, \sigma=1)$$</p>
 <p>$$\mu \sim \mathcal{N}(\mu_0 = 4, \sigma_0 = 2)$$</p>
-<p>In the Bayesian Stat lingo, this way of writing the model derives from the fact that knowing nothing about the joint distribution of the $x$'s&rsquo; we can assume <a href="https://en.wikipedia.org/wiki/Exchangeable_random_variables">exchangeability</a>. By the <a href="https://en.wikipedia.org/wiki/De_Finetti%27s_theorem">De Finetti&rsquo;s Theorem</a> we arrive to the above formulation. Anyway, this goes beyond the scope of this blog post. For more information on Bayesian Analysis look at (the bible) <a href="http://www.stat.columbia.edu/~gelman/book/">Gelman et al. book</a>.</p>
+<p>In the Bayesian Stat lingo, this way of writing the model derives from the fact that knowing nothing about the joint distribution of the $x$&rsquo;s' we can assume <a href="https://en.wikipedia.org/wiki/Exchangeable_random_variables">exchangeability</a>. By the <a href="https://en.wikipedia.org/wiki/De_Finetti%27s_theorem">De Finetti&rsquo;s Theorem</a> we arrive to the above formulation. Anyway, this goes beyond the scope of this blog post. For more information on Bayesian Analysis look at (the bible) <a href="http://www.stat.columbia.edu/~gelman/book/">Gelman et al. book</a>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># prior</span>
 mu_0, sigma_0 <span style="color:#f92672">=</span> <span style="color:#ae81ff">4.</span>, <span style="color:#ae81ff">2.</span>
 prior <span style="color:#f92672">=</span> tfd<span style="color:#f92672">.</span>Normal(mu_0, sigma_0)
@@ -815,7 +819,7 @@ sns<span style="color:#f92672">.</span>despine()
 plt<span style="color:#f92672">.</span>legend(labels<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;Prior&#39;</span>,<span style="color:#e6db74">&#39;Posterior&#39;</span>, <span style="color:#e6db74">&#39;Likelihood (prior)&#39;</span>, <span style="color:#e6db74">&#39;Likelihood (Posterior)&#39;</span>])
 plt<span style="color:#f92672">.</span>xlim(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">7</span>);
 </code></pre></div><p><img src="output_23_0.png" alt="png"></p>
-<p>This shows our quantity of interest (orange): the probability of $\mu$'s values after having seen the data, taking our prior information into account.</p>
+<p>This shows our quantity of interest (orange): the probability of $\mu$&rsquo;s values after having seen the data, taking our prior information into account.</p>
 <p>The important thing to acknowledge is that, without conjugacy, we would not even be capable of sketching the posterior distribution: we would not know its shape at all. Let&rsquo;s assume, however, that our prior was not conjugate and we could not solve this by hand &ndash; which is often the case.</p>
 <h2 id="approximation-methods">Approximation methods</h2>
 <p>When we do not have access to the analytic form of the posterior distribution we can resort to MCMC methods. The basic idea is that we can find strategies to sample from the posterior distribution, even if we cannot &ldquo;write it down&rdquo;. These samples are then used to approximate the posterior distribution. One simple strategy to get samples from the posterior distribution is the <strong>Rejection Sampling algorithm</strong>.</p>
@@ -872,7 +876,7 @@ the <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/jo
 mu_proposal <span style="color:#f92672">=</span> tfd<span style="color:#f92672">.</span>Normal(mu_current, proposal_width)<span style="color:#f92672">.</span>sample()
 </code></pre></div><p>Next, you evaluate whether that&rsquo;s a good place to jump to or not. To evaluate if it is good, you compute the ratio</p>
 <p>$$\rho = \frac{P(\theta^\star|x)}{P(\theta_s|x)} = \frac{P(x|\theta^\star) P(\theta^\star)/P(x)}{P(x|\theta_s) P(\theta_s)/P(x)} = \frac{P(x, \theta^\star)}{P(x, \theta_s)}$$</p>
-<p>Here is the trick: the normalizing constants cancel out. We only have to compute the numerator of the Bayes&rsquo; formula, that is the product of likelihood and prior. We have seen that it is the same as computing the joint probability distribution &ndash; usually, we compute the log joint probability in practise &ndash; of the data and the parameter values. TFP performs probabilistic inference by evaluating the model parameters using a <code>joint_log_prob</code> function that the user as to provide (which we define below).</p>
+<p>Here is the trick: the normalizing constants cancel out. We only have to compute the numerator of the Bayes' formula, that is the product of likelihood and prior. We have seen that it is the same as computing the joint probability distribution &ndash; usually, we compute the log joint probability in practise &ndash; of the data and the parameter values. TFP performs probabilistic inference by evaluating the model parameters using a <code>joint_log_prob</code> function that the user as to provide (which we define below).</p>
 <p>Then,</p>
 <ul>
 <li>
@@ -1013,7 +1017,7 @@ plt<span style="color:#f92672">.</span>legend(labels<span style="color:#f92672">
 
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Pietro Lesci</a></h5>
-      <h6 class="card-subtitle">Research Assistant</h6>
+      <h6 class="card-subtitle">Senior Associate, Data Science</h6>
       <p class="card-text" itemprop="description">Passionate musician, statistics enthusiast</p>
       <ul class="network-icon" aria-hidden="true">
         
@@ -1061,7 +1065,7 @@ plt<span style="color:#f92672">.</span>legend(labels<span style="color:#f92672">
             
           
           <li>
-            <a itemprop="sameAs" href="https://github.com/lescipi" target="_blank" rel="noopener">
+            <a itemprop="sameAs" href="https://github.com/pietrolesci" target="_blank" rel="noopener">
               <i class="fab fa-github"></i>
             </a>
           </li>
@@ -1138,7 +1142,7 @@ plt<span style="color:#f92672">.</span>legend(labels<span style="color:#f92672">
   
 
   <p class="powered-by">
-    © 2019 &middot; 
+    © 2021 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
