@@ -6,6 +6,24 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.45rem;
 }
 
 hr {
@@ -17,7 +35,8 @@ table {
     color: var(--global-text-color);
   }
   td {
-    font-size: 1rem;
+    // font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -136,6 +155,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-size: 0.875rem;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -248,7 +268,8 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    // font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -321,7 +342,7 @@ footer.sticky-bottom {
   padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }
 
