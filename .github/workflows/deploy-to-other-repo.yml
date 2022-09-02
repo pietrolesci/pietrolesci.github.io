@@ -32,10 +32,11 @@ jobs:
       # - name: Create CNAME
       #   run: echo "pietrolesci.com" > ./_site/CNAME
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy with Github Pages v3
+        uses: peaceiris/actions-gh-pages@v3.1.12
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: pietrolesci/pietrolesci.github.io
           publish_dir: ./_site
           #   keep_files: true
