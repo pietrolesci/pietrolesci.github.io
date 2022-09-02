@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://pietrolesci.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pietrolesci.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-09-02T19:33:36+00:00</updated><id>https://pietrolesci.github.io/feed.xml</id><title type="html">blank</title><subtitle>Pietro Lesci's personal website
+</subtitle><entry><title type="html">My Career (in one page)</title><link href="https://pietrolesci.github.io/blog/2021/career/" rel="alternate" type="text/html" title="My Career (in one page)" /><published>2021-01-01T00:00:00+00:00</published><updated>2021-01-01T00:00:00+00:00</updated><id>https://pietrolesci.github.io/blog/2021/career</id><content type="html" xml:base="https://pietrolesci.github.io/blog/2021/career/">&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;I am Pietro Lesci, a PhD student in Computer Science at Cambridge University working on Machine Learning for Natural Language Processing.&lt;/p&gt;
+
+&lt;p&gt;Prior to starting the PhD in October 2021, I have been a senior associate in data science at Bain &amp;amp; Company for 1.5 years. I have a background in economics (both BSc and MSc) and I slowly transitioned to data science and eventually to research in machine learning (ML) and natural language processing (NLP).&lt;/p&gt;
+
+&lt;p&gt;I started my journey from economics to ML in 2018 while working as a trainee in data science at the Directorate of General Statistics at the &lt;a href=&quot;https://www.ecb.europa.eu/home/html/index.en.html&quot;&gt;European Central Bank&lt;/a&gt; in Frankfurt am Main (Germany). During this period, I got formal recognition as being the only trainee to have ever developed a new procedure end-to-end, coordinated the expert counterparties from the National Central Banks during its implementation, and presented during regular plenary meetings. Given my performance, I received a contract extension.&lt;/p&gt;
+
+&lt;p&gt;Once back from Frankfurt, I graduate with an MSc in Economic and Social Sciences at &lt;a href=&quot;https://www.unibocconi.it/wps/wcm/connect/bocconi/sitopubblico_it/albero+di+navigazione/home/corsi+di+studio/lauree+triennali/economic+and+social+sciences/&quot;&gt;Bocconi University&lt;/a&gt; in 2019. The course was centered on Bayesian methods for computational social sciences and featured many applied econometrics and time-series courses. I wrote my thesis under the supervision of Prof &lt;a href=&quot;https://faculty.unibocconi.eu/soniapetrone/&quot;&gt;Sonia Petrone&lt;/a&gt;. In the thesis, I discuss the statistical interpretation of a new class of algorithms called Neural Processes proposed that very same year.&lt;/p&gt;
+
+&lt;p&gt;After graduation, I properly entered the ML/NLP world by working as a research assistant at the &lt;a href=&quot;https://www.bidsa.unibocconi.eu/wps/wcm/connect/Site/Bidsa/Home&quot;&gt;Bocconi Institute for Data Science and Analytics&lt;/a&gt; with Prof &lt;a href=&quot;https://dirkhovy.com/&quot;&gt;Dirk Hovy&lt;/a&gt; in Milan (Italy). I was a member of the team working to understand, explore, and measure the health of conversations on the Twitter platform - the project was completely funded by Twitter. As part of my work at Bocconi University, I deployed two machine learning web apps — &lt;a href=&quot;https://wordify.unibocconi.it/index&quot;&gt;Wordify&lt;/a&gt; and &lt;a href=&quot;https://mace.unibocconi.it/&quot;&gt;MACE&lt;/a&gt; — that allow researchers in other fields (e.g., social sciences, marketing, economics, etc) to easily access NLP tools.&lt;/p&gt;
+
+&lt;p&gt;From March 2020 until the start of the PhD, I have been working as a data scientist in the Advanced Analytics Group at &lt;a href=&quot;https://www.bain.com/it/&quot;&gt;Bain &amp;amp; Company&lt;/a&gt;, a strategic consulting firm. There, I had the chance to work on many exciting ML/MLOps problems across a variety of industries (telco, finance, consumers goods, mining), continents (Europe, America, Asia) programming languages (Python, R, Julia, SQL, Rust), and use-cases (analyses, software projects, libraries, products, and pipelines). Being Bain &amp;amp; Company one of the top 3 strategic consulting firms in the world, I had the great opportunity to learn the “consultant curriculum”: managing teams, scoping work, and dealing with tight deadlines while attaining the highest required quality standards for our clients. I am glad I had the chance to be managed by Dr &lt;a href=&quot;https://www.linkedin.com/in/diane-berry-007/&quot;&gt;Diane Berry&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/marc-van-heerden-b9042818/&quot;&gt;Marc Van Heerden&lt;/a&gt; during the time spent there.&lt;/p&gt;
+
+&lt;p&gt;I believe this is my personal added value: I worked in very diverse environments collaborating with people at different levels of seniority and from different cultures. I always tried to humbly give my best and often proved to be able to fast-learn, adapt, and succeed even in contexts that are not my own. Most importantly, I luckily managed to always leave with more friends than when I arrived.&lt;/p&gt;
+
+&lt;p&gt;As of October 2021, I am a PhD student in Computer Science working on Machine Learning for Natural Language Processing with Prof &lt;a href=&quot;https://andreasvlachos.github.io/&quot;&gt;Andreas Vlachos&lt;/a&gt;. I am currently interested in parameter- and data-efficient fine-tuning of large language models (keywords: few-shot learning, meta-learning, active-learning).&lt;/p&gt;
+
+&lt;!-- Also, I like to contribute to open-source software projects. I have recently become a core maintainer of the [lightning-flash](https://github.com/PyTorchLightning/lightning-flash) Python library. --&gt;
+
+&lt;p&gt;First of six children, I am a passionate musician and a statistics enthusiast.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">Hi!</summary></entry><entry><title type="html">Live performances</title><link href="https://pietrolesci.github.io/blog/2021/live-performance/" rel="alternate" type="text/html" title="Live performances" /><published>2021-01-01T00:00:00+00:00</published><updated>2021-01-01T00:00:00+00:00</updated><id>https://pietrolesci.github.io/blog/2021/live-performance</id><content type="html" xml:base="https://pietrolesci.github.io/blog/2021/live-performance/">&lt;p&gt;Since I was 8, I studied classical piano. At the age of 12, I found my dad’s old bass guitar and started
+playing around with it. I fell in love instantly. In parallel to the classical piano studies, I applied
+to the BAs in Jazz program at &lt;a href=&quot;http://portale.conservatoriodicosenza.it/&quot;&gt;Conservatorio di Musica Stanislao Giacomantonio&lt;/a&gt;
+in Cosenza (IT). 
+I was admitted with the Director’s explicit permit for talented students which allowed me to
+be admitted to an undergraduate-level course without the having a high-school diploma. During those years, I attended
+the scientific highschool in the morning and the Conservatorio in the afternoon. It has been a tough but rewarding experience.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, by the Italian law, one can only attend one undergraduate-level course at a time. So, once I obtained my
+highschool diploma, I decided to put the BAs in Jazz on pause and focus on my BSc in Economic and Management at
+&lt;a href=&quot;https://www.unicatt.it/&quot;&gt;Università Cattolica del Sacro Cuore&lt;/a&gt; in Milan (IT) - quite far from the Conservatorio…&lt;/p&gt;
+
+&lt;p&gt;However, I still enjoy studying and playing music. Every time I go back to my hometown, Saracena (IT), during summer or
+winter holidays, I try to organize live performances with my (rock/jazz) trio in which I’m the singer and bass player - we play together since we were 12.&lt;/p&gt;
+
+&lt;p&gt;Here is a nice photo of one of our performances in 2018 at Centro Commerciale Metropolis in Rende (IT) during Christmas holidays.&lt;/p&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/live-performance/live-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/live-performance/live-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/live-performance/live-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/live-performance/live.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/live-performance/live.png) --&gt;
+
+&lt;p&gt;We usually play cover and our preferred artists are: Police, Jimi Hendrix, Doors, Beatles, Talking Heads, Rolling Stones, 
+Bob Dylan, Chuck Berry, Bob Marley, etc - you got the vibe :)&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">Since I was 8, I studied classical piano. At the age of 12, I found my dad’s old bass guitar and started playing around with it. I fell in love instantly. In parallel to the classical piano studies, I applied to the BAs in Jazz program at Conservatorio di Musica Stanislao Giacomantonio in Cosenza (IT). I was admitted with the Director’s explicit permit for talented students which allowed me to be admitted to an undergraduate-level course without the having a high-school diploma. During those years, I attended the scientific highschool in the morning and the Conservatorio in the afternoon. It has been a tough but rewarding experience.</summary></entry><entry><title type="html">Bayesian inference with MCMC</title><link href="https://pietrolesci.github.io/blog/2019/mcmc-tfp/" rel="alternate" type="text/html" title="Bayesian inference with MCMC" /><published>2019-06-19T00:00:00+00:00</published><updated>2019-06-19T00:00:00+00:00</updated><id>https://pietrolesci.github.io/blog/2019/mcmc-tfp</id><content type="html" xml:base="https://pietrolesci.github.io/blog/2019/mcmc-tfp/">&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1tDfViP2s2JvrMONrweK3M3KqHrH-m-tR&quot;&gt;&lt;img src=&quot;https://colab.research.google.com/assets/colab-badge.svg&quot; alt=&quot;Open In Collab&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog post is an attempt at trying to explain the intuition behind MCMC sampling: specifically, a particular instance of the &lt;strong&gt;Metropolis-Hasting algorithm&lt;/strong&gt;. Critically, we’ll be using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TensorFlow-Probability&lt;/code&gt; code examples to explain the various concepts.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;First, let’s import our modules. Note that we will use TensorFlow 2 Beta and we will use the TFP nightly distribution with works fine with TF2.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tensorflow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tensorflow_probability&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distributions&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;seaborn&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_seed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1905&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'figure.figsize'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;9.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;6.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)})&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'paper'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'whitegrid'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2.0.0 0.7.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s generate some data: 20 points from a Gaussian distribution centered around zero (the true Data-Generating Process that we want to discover from the 20 samples we can see). Note that in TFP the Gaussian distribution is parametrized by mean and standard deviation, not the variance.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;true_dgp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;true_dgp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kde&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;despine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_7_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_7_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_7_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_7_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;We have some observations $x$.&lt;/p&gt;
+
+&lt;p&gt;Usually (in parametric statistics) we assume a data-generating process, i.e. a model $P(x\mid \theta)$, from which the data we see had been sampled – note that $P$ is used to denote a probability density/mass function. Looking at the data, we come up – somehow – with the idea that a good model for our data is the Gaussian distribution. In other words, we assume that the data are normally distributed.&lt;/p&gt;
+
+&lt;p&gt;The model often depends on unknown parameters $\theta$. They can be unknown because they are intrinsecally random or because simply we do not know them. A normal distribution has two parameters: the mean, $\mu$, and the standard deviation, $\sigma$. For simplicity, we assume we know $\sigma=1$ and we want to make inference on $\mu$ only, that is $\theta \equiv \mu$.&lt;/p&gt;
+
+&lt;p&gt;From a Bayesian viewpoint, we have to define a prior distribution for this parameter, i.e. $P(\theta)$. Let’s also assume a normal distribution as a prior for $\mu$. Our model can be written as follows (we assumed that the prior is a Gaussian distribution with mean 4 and stardard deviation 2)&lt;/p&gt;
+
+\[x_i\mid \mu \stackrel{i.i.d.}{\sim} \mathcal{N}(\mu, \sigma=1)\]
+
+\[\mu \sim \mathcal{N}(\mu_0 = 4, \sigma_0 = 2)\]
+
+&lt;p&gt;In the Bayesian Stat lingo, this way of writing the model derives from the fact that knowing nothing about the joint distribution of the $x$’s’ we can assume &lt;a href=&quot;https://en.wikipedia.org/wiki/Exchangeable_random_variables&quot;&gt;exchangeability&lt;/a&gt;. By the &lt;a href=&quot;https://en.wikipedia.org/wiki/De_Finetti%27s_theorem&quot;&gt;De Finetti’s Theorem&lt;/a&gt; we arrive to the above formulation. Anyway, this goes beyond the scope of this blog post. For more information on Bayesian Analysis look at (the bible) &lt;a href=&quot;http://www.stat.columbia.edu/~gelman/book/&quot;&gt;Gelman et al. book&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# prior
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# likelihood
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# use a sample from the prior as guess for mu
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;likelihood&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;digression&quot;&gt;Digression&lt;/h3&gt;
+&lt;p&gt;Note that actually what I called likelihood, is the likelihood for one specific datapoint – call it $\mathrm{likelihood}&lt;em&gt;i, i=1,\dots,N$. The “proper” likelihood function is (given that we have an _i.i.d.&lt;/em&gt; sample) equal to the product of the “per-datapoint” likelihoods&lt;/p&gt;
+
+\[\mathcal{L}(\mu; x) = \prod_{i=1}^n \underbrace{\frac{1}{\sqrt{2\pi\sigma^2}} \exp \left\{-\frac{(x_i-\mu)^2}{2\sigma^2}\right\}}_{\mathcal{L}(\mu; x_i)}\]
+
+&lt;p&gt;When we consider the loglikelihood, obviously, for an &lt;em&gt;i.i.d.&lt;/em&gt; sample, the loglikelihood is the sum of the individual “per-datapoint” likelihoods&lt;/p&gt;
+
+\[\mathcal{l}(\mu; x) = \sum_{i=1}^n \mathcal{l}(\mu; x_i)\]
+
+&lt;p&gt;Usually, the likelihood is denoted by $\mathcal{L}(\mu; x)$ or $p(x\mid \mu)$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Since we do not know the mean of the Gaussian distribution which generated the data, we use a sample from the prior distribution as a guess for $\mu$ in order to be able to draw it (we need a value), the likelihood has a mean similar to that of the prior distribution.&lt;/p&gt;
+
+&lt;p&gt;In the graph below, I plot both the prior and the likelihood, as well as the true data-generating process with the data plotted as a rug&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rugplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linewidth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;likelihood&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;true_dgp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;despine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;legend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Data'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Prior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Likelihood'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'True DGP'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_14_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_14_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_14_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_14_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/mcmc-tfp/output_14_0.png) --&gt;
+
+&lt;p&gt;In the Bayesian framework, inference, i.e. knowing something more about the unknown parameters, is solved by the Bayes formula&lt;/p&gt;
+
+\[P(\theta\mid x)=\frac{P(x\mid \theta)P(\theta)}{P(x)}\]
+
+&lt;p&gt;The posterior distribution $P(\theta\mid x)$ – that is, what we know about our model parameters $\theta$ after having seen thet data $x$ – is our quantity of interest.&lt;/p&gt;
+
+&lt;p&gt;To compute it, we multiply the &lt;strong&gt;prior&lt;/strong&gt; $P(\theta)$ (what we think about $\theta$ before we have seen any data) and the &lt;strong&gt;likelihood&lt;/strong&gt; $P(x\mid \theta)$, dividing by the &lt;strong&gt;evidence&lt;/strong&gt; $P(x)$ (a.k.a. &lt;em&gt;marginal likelihood&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;However, let’s take a closer look at this last term: the denominator, $P(x)$. We do not observe it, but we can compute this quantity by integrating over all possible parameter values:&lt;/p&gt;
+
+\[P(x)=\int_\Theta P(x,\theta) \ d\theta\]
+
+&lt;p&gt;This is the key difficulty with the Bayes formula – while the formula looks pretty enough, for even slightly non-trivial models we cannot compute the posterior in a closed-form way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: $P(x)$ is a normalizing constant. Up to this normalizing constant, we know exactly how the &lt;em&gt;unnormalized&lt;/em&gt; posterior distribution looks like, i.e.&lt;/p&gt;
+
+\[P(\theta\mid x) \propto P(x\mid \theta) P(\theta)\]
+
+&lt;p&gt;(where $\propto$ mean “proportional to”). Since we defined both terms on the rhs, &lt;strong&gt;we DO know how to sample from the unnormalized posterior distribution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Furthermore, by the product rule  – $P(A, B) = P(A\mid B) P(B)$ – we can write&lt;/p&gt;
+
+\[P(\theta\mid x) \propto P(x, \theta)\]
+
+&lt;p&gt;meaning that the unnormalized posterior is proportional to the joint distribution of $x$ and $\theta$.&lt;/p&gt;
+
+&lt;p&gt;Back to the example. The prior distribution we defined is convenient because we can actually compute the posterior distribution analytically. That’s because for a normal likelihood with known standard deviation, the normal prior distribution for $\mu$ is &lt;a href=&quot;https://en.wikipedia.org/wiki/Conjugate_prior&quot;&gt;conjugate&lt;/a&gt;, i.e. our posterior distribution will belong to the same family of distributions of the prior. Therefore, we know that our posterior distribution for $\mu$ is also normal. For a mathematical derivation see &lt;a href=&quot;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxiYXllc2VjdHxneDplNGY0MDljNDA5MGYxYTM&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let’s define a function which computes the updates for the parameters of the posterior distribution analytically&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_param_updates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#sigma is known
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;prior_sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x_bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce_mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;post_mu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;post_sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sigma2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior_sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;post_sigma&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post_sigma2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post_mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post_sigma&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# posterior
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_param_updates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                  &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+                                  &lt;span class=&quot;n&quot;&gt;prior_mu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+                                  &lt;span class=&quot;n&quot;&gt;prior_sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sigma_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;posterior&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In the graph below, I plot both the prior and the posterior distributions. Furthermore, I plot the likelihood both with mean set to a sample from the prior and a sample from the posterior&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posterior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;likelihood&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posterior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;despine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;legend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Prior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Likelihood (prior)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Likelihood (Posterior)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_23_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_23_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_23_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_23_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/mcmc-tfp/output_23_0.png) --&gt;
+
+&lt;p&gt;This shows our quantity of interest (orange): the probability of $\mu$’s values after having seen the data, taking our prior information into account.&lt;/p&gt;
+
+&lt;p&gt;The important thing to acknowledge is that, without conjugacy, we would not even be capable of sketching the posterior distribution: we would not know its shape at all. Let’s assume, however, that our prior was not conjugate and we could not solve this by hand – which is often the case.&lt;/p&gt;
+
+&lt;h2 id=&quot;approximation-methods&quot;&gt;Approximation methods&lt;/h2&gt;
+
+&lt;p&gt;When we do not have access to the analytic form of the posterior distribution we can resort to MCMC methods. The basic idea is that we can find strategies to sample from the posterior distribution, even if we cannot “write it down”. These samples are then used to approximate the posterior distribution. One simple strategy to get samples from the posterior distribution is the &lt;strong&gt;Rejection Sampling algorithm&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;rejection-sampling&quot;&gt;Rejection Sampling&lt;/h3&gt;
+
+&lt;p&gt;The basic idea of rejection sampling is to sample from an &lt;em&gt;instrumental distribution&lt;/em&gt; and reject samples
+that are “unlikely” under the &lt;em&gt;target distribution&lt;/em&gt;. Here we consider a very specific instance of rejection sampling:
+the &lt;a href=&quot;https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf&quot;&gt;&lt;strong&gt;Naive Rejection Sampling&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Suppose that you can sample from a joint distribution $P(X, \theta)$ (where $X$ is random as well) – we have seen that we can sample from it since using the product rule we get $P(X, \theta) = P(X\mid \theta) P(\theta)$, which are both defined by us, so we know how to sample from them!&lt;/p&gt;
+
+&lt;p&gt;We are interested in sampling $\theta$ from the conditional distribution $P(\theta\mid X = x)$, for some fixed values of $x$ – i.e. the observed data.&lt;/p&gt;
+
+&lt;p&gt;The Naive Rejection Sampling algorithm works as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sample $\theta$ from the prior $P(\theta)$ and $X$ from the likelihood $P(X\mid \theta)$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $X = x$ (the observed data) , accept $\theta$ as a sample from the posterior $P(\theta\mid X = x)$ , otherwise return to (1) and repeat&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Each time you return to step 1, the samples of $\theta$ are independent from the previous ones.&lt;/p&gt;
+
+&lt;p&gt;Pros: step 1 is often practical because both the prior and the likelihood are often easy-to-sample distributions. Cons: the clear shortcoming is that step 2 can be very unlikely and thus we will very rarely (if ever) accept the candidate sample $\theta$.&lt;/p&gt;
+
+&lt;p&gt;This simple implementation of rejection sampling is enough to provide some intuition and motivates the use of more sophisticated and robust sampling algorithms based on Markov chains.&lt;/p&gt;
+
+&lt;h3 id=&quot;mcmc-the-random-walk-metropolis-hasting-algorithm&quot;&gt;MCMC: The Random-Walk Metropolis-Hasting algorithm&lt;/h3&gt;
+
+&lt;p&gt;There is a large family of algorithms that perform MCMC. Most of these algorithms can be expressed at a high level as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start at current position (i.e. a value for $\theta$, say $\theta^{(1)}$)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Propose moving to a new position (say, $\theta^\star$)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Accept/Reject the new position based on the position’s adherence to the data and prior distributions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you accept: Move to the new position (i.e. $\theta^{(2)}=\theta^\star$) and return to Step 1&lt;/li&gt;
+      &lt;li&gt;Else: Do not move to new position. Return to Step 1.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;After a large number of iterations, return all accepted positions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Based on how you implement the above steps you get the various MCMC algorithm. Here we will review the &lt;a href=&quot;https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf&quot;&gt;&lt;strong&gt;Random-Walk Metropolis-Hasting algorithm&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As we have seen, the main drawback of the rejection sampling is that it is not efficient – it is unlikely to get exactly $X = x$, especially when it is high-dimensional.&lt;/p&gt;
+
+&lt;p&gt;One way around this problem is to allow for “local updates”, i.e. let the proposed value depend on the last accepted value (here is the part where &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot;&gt;Markov Chains&lt;/a&gt; enter the scene).&lt;/p&gt;
+
+&lt;p&gt;This makes it easier to come up with a suitable (conditional) proposal, however at the price of yielding a Markov chain, instead of a sequence of independent &lt;strong&gt;realizations&lt;/strong&gt; – putting it simply, a sequence of random variables is a &lt;em&gt;Markov Chain&lt;/em&gt; if the future state only depends on the present state.&lt;/p&gt;
+
+&lt;p&gt;At first, you find a starting position (can be randomly chosen), lets fix it arbitrarily to&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;mu_current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The critical point is how you propose the new position (that’s the Markov part). You can be very naive or very sophisticated about how you come up with that proposal. The RW-MH algorithm is very naive and just takes a sample from a Gaussian distribution (or whatever simmetric distribution you like) centered on the current value with a certain standard deviation, usually called &lt;em&gt;proposal width&lt;/em&gt; that will determine how far you propose jumps. In other words, the RW-MH proposes a new $\theta^\star$ according to&lt;/p&gt;
+
+\[\theta^\star = \theta_{s} + \varepsilon, \quad \varepsilon \sim g\]
+
+&lt;p&gt;where $g$ may be any simmetric distribution. Usually, $g = \mathcal{N}(0, \tau)$, so that the proposed new value, $\theta^\star$, is simply a draw from $\mathcal{N}(\theta_{s}, \tau)$.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;proposal_width&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;mu_proposal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, you evaluate whether that’s a good place to jump to or not. To evaluate if it is good, you compute the ratio&lt;/p&gt;
+
+\[\rho = \frac{P(\theta^\star\mid x)}{P(\theta_s\mid x)} = \frac{P(x\mid \theta^\star) P(\theta^\star)/P(x)}{P(x\mid \theta_s) P(\theta_s)/P(x)} = \frac{P(x, \theta^\star)}{P(x, \theta_s)}\]
+
+&lt;p&gt;Here is the trick: the normalizing constants cancel out. We only have to compute the numerator of the Bayes’ formula, that is the product of likelihood and prior. We have seen that it is the same as computing the joint probability distribution – usually, we compute the log joint probability in practise – of the data and the parameter values. TFP performs probabilistic inference by evaluating the model parameters using a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;joint_log_prob&lt;/code&gt; function that the user as to provide (which we define below).&lt;/p&gt;
+
+&lt;p&gt;Then,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $\rho\geq1$, set $\theta^{s+1}=\theta^\star$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $\rho&amp;lt;1$, set $\theta_{s+1}=\theta^\star$ with probability $\rho$, otherwise set $\theta_{s+1}=\theta_s$ (this is where we use the standard uniform distribution – in practice you draw a sample $u \sim \mathrm{Unif}(0,1)$ and check if $\rho &amp;gt; u$; if it is you accept the proposal)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To sum up, we accept a proposed move to $\theta^\star$ whenever the density of the (unnormalzied) joint distribution evaluated at $\theta^\star$ is larger than the value of the unnormalized joint distribution evaluated at $\theta_s$ – so $\theta$ will more often be found in places where the unnormalized joint distribution is denser.&lt;/p&gt;
+
+&lt;p&gt;If this was all we accepted, $\theta$ would get stuck at a local mode of the target distribution, so we also accept occasional moves to lower density regions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: The model we define enters the inference scheme only when we evaluate the proposal. In other words, the model we define is important made explicit in the definition of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;joint_log_prob&lt;/code&gt; function, that is&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;joint_log_prob = model definition
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s now define the joint log probability of the normal model above.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# definition of the joint_log_prob to evaluate samples
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;joint_log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma_0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'prior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;likelihood&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'likelihood'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce_mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;likelihood&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s evaluate the proposal above, i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mu_proposal&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# compute acceptance ratio
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_accept&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;joint_log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu_proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;joint_log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu_current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Acceptance probability:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p_accept&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Acceptance probability: 1.0373609
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It is more than 1, therefore we accept directly. Imagine that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;p_accept&lt;/code&gt; was $0.8$, then we would have drawn a sample from the uniform distribution and check the following&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p_accept&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Uniform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mu_current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu_proposal&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Proposal accepted'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Proposal not accepted'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Proposal accepted
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point we would restart the process again.&lt;/p&gt;
+
+&lt;h3 id=&quot;tfp-implementation&quot;&gt;TFP implementation&lt;/h3&gt;
+
+&lt;p&gt;In TFP the algorithm is implemented as follows.&lt;/p&gt;
+
+&lt;p&gt;First we define &lt;em&gt;how&lt;/em&gt; the step should be taken, i.e. how the proposal should be made. Since we are implementing the RW-MH algorithm we use the function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tfp.mcmc.RandomWalkMetropolis&lt;/code&gt;. It takes as argument the unnormalized join distribution that it will use to compute the acceptance ratio. The only thing we have to remenber is that we have to “lock the data” or “define a closure” over our joint_log_prob function. In other words, fix the data input of the function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;joint_log_prob&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# define a closure on joint_log_prob
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;unnormalized_log_posterior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;joint_log_prob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we can pass the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unnormalized_log_posterior&lt;/code&gt; as the argument of the function which implements the step&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;rwm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mcmc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RandomWalkMetropolis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;target_log_prob_fn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unnormalized_log_posterior&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Secondly, we have to define the initial state of the chain, say $\theta_0$. We choose this arbitrarily.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;initial_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;constant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'initial_state'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, we can sample the chain with the function &lt;a href=&quot;https://www.tensorflow.org/probability/api_docs/python/tfp/mcmc/sample_chain&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tf.mcmc.sample_chain&lt;/code&gt;&lt;/a&gt;, which returns the samples (named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;trace&lt;/code&gt; usign the usual stat lingo) and some additional information regarding the procedure implemented (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kernel_results&lt;/code&gt;)&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kernel_results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mcmc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample_chain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;num_results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;num_burnin_steps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;current_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initial_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;num_steps_between_results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;kernel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rwm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;parallel_iterations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;However, to take full advantage of TF, we will enclose this sampling process into a function and we will decorate it with &lt;a href=&quot;https://www.tensorflow.org/tutorials/customization/performance&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tf.function&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run_chain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;samples&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kernel_results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tfp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mcmc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample_chain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;num_results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;num_burnin_steps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;current_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initial_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;kernel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rwm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;parallel_iterations&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;trace_fn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pkr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pkr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;samples&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kernel_results&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: To print the code generated by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tf.function&lt;/code&gt; on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fn&lt;/code&gt;, use&lt;/p&gt;
+  &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;autograph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kernel_results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run_chain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_55_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_55_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_55_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_55_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/mcmc-tfp/output_55_0.png) --&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posterior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;despine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;legend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Prior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Analytic Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'MCMC Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xlim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_56_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_56_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_56_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_56_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/mcmc-tfp/output_56_0.png) --&gt;
+
+&lt;p&gt;As you can see, even after $10^5$ samples, the MCMC posterior is not even close to the true posterior. That’s normal since the RW-MH algorithm is not very efficient: it is not a great sampler for this kind of problems. You might need a crazy number of samples before it gets close to the true posterior.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, other frameworks like PyMC uses the &lt;a href=&quot;http://www.stat.columbia.edu/~gelman/research/published/nuts.pdf&quot;&gt;NUTS sampler&lt;/a&gt; – a kind of adaptive Hamiltonian Monte Carlo method. TFP supports HMC (&lt;a href=&quot;https://www.tensorflow.org/probability/api_docs/python/tfp/mcmc/HamiltonianMonteCarlo&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tfp.mcmc.HamiltonianMonteCarlo&lt;/code&gt;&lt;/a&gt;), but still you might have to tune the step size and leapfrog steps parameters (this is the thing that NUTS does adaptively for you). That alone should get you closer to consistent results.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For more material on this subject consult &lt;a href=&quot;https://twiecki.io/&quot;&gt;Thomas Wiecki’s Blog&lt;/a&gt;, &lt;a href=&quot;https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_TFP.ipynb&quot;&gt;Bayesian Methods for Hacker book&lt;/a&gt;, &lt;a href=&quot;http://people.duke.edu/~ccc14/sta-663-2017/20A_MCMC.html&quot;&gt;Duke University STAT course page&lt;/a&gt;, and &lt;a href=&quot;https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf&quot;&gt;this lecture notes&lt;/a&gt; for a technical review of Monte Carlo Methods. The material covered here was inspired by Thomas Wiecki’s &lt;a href=&quot;https://twiecki.io/blog/2015/11/10/mcmc-sampling/&quot;&gt;blogpost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In a future blogpost I will discuss in more detail both the TFP implemetation of MCMC methods and the diagnostics of the MCMC procedure.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;bonus-pymc3-implementation-with-nuts&quot;&gt;Bonus: PyMC3 implementation with NUTS&lt;/h2&gt;
+
+&lt;p&gt;Without going into the detail of the procedure (left as a future blogpost), below I implement the same procedure, but using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pymc3&lt;/code&gt; and its default sampler (NUTS)&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymc3&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mu'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'observed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;observed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;trace_pm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tune&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chains&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;100% |██████████|  10500/10500 [00:05&amp;lt;00:00, 1971.43it/s]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;posterior&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace_pm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mu'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;legend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Analytic Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'PyMC Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'TFP Posterior'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure&gt;
+
+  &lt;picture&gt;
+    
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 480px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_65_0-480.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 800px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_65_0-800.webp&quot; /&gt;
+    &lt;source class=&quot;responsive-img-srcset&quot; media=&quot;(max-width: 1400px)&quot; srcset=&quot;/assets/img/mcmc-tfp/output_65_0-1400.webp&quot; /&gt;
+    
+
+    &lt;!-- Fallback to the original file --&gt;
+    &lt;img src=&quot;/assets/img/mcmc-tfp/output_65_0.png&quot; class=&quot;img-fluid rounded z-depth-1&quot; width=&quot;auto&quot; height=&quot;auto&quot; data-zoomable=&quot;&quot; onerror=&quot;this.onerror=null; $('.responsive-img-srcset').remove();&quot; /&gt;
+
+  &lt;/picture&gt;
+
+&lt;/figure&gt;
+
+&lt;!-- ![png](../../../assets/img/mcmc-tfp/output_65_0.png) --&gt;
+
+&lt;p&gt;As you might notice, just after $10^4$ samples, the NUTS is able to retrieve the true posterior (they are in fact indistinguishable).&lt;/p&gt;</content><author><name></name></author><category term="probabilistic-programming" /><category term="python" /><category term="statistics" /><category term="tensorFlow" /><category term="pymc" /><summary type="html"></summary></entry></feed>
