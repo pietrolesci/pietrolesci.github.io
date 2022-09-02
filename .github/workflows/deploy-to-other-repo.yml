@@ -35,7 +35,7 @@ jobs:
         with:
           external_repository: pietrolesci/pietrolesci.github.io
           publish_branch: master
-          publish_dir: ./public
+          publish_dir: ./_site
           #   keep_files: true
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # deploy_key: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
