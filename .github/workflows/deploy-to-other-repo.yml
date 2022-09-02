@@ -24,8 +24,8 @@ jobs:
             ${{ runner.os }}-gems-
       
       - name: 🧪 Build and deploy
-        uses: victoriadrake/jekyll-cd@master
-        # uses: actions/jekyll-build-pages@v1.0.5
+        # uses: victoriadrake/jekyll-cd@master
+        uses: actions/jekyll-build-pages@v1.0.5
 
       # - name: Create CNAME
       #   run: echo "pietrolesci.com" > ./_site/CNAME
@@ -39,5 +39,5 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           user_name: pietrolesci
           user_email: pietrolesci@outlook.com
-          enable_jekyll: true
+          enable_jekyll: false
           cname: pietrolesci.com
