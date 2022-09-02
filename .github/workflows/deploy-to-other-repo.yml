@@ -35,13 +35,12 @@ jobs:
       - name: Deploy with Github Pages v3
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           external_repository: pietrolesci/pietrolesci.github.io
           publish_branch: master
           publish_dir: ./public
-          
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
           #   keep_files: true
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           user_name: pietrolesci
           user_email: pietrolesci@outlook.com
           enable_jekyll: true
