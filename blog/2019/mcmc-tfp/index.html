@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bayesian inference with MCMC | Pietro  Lesci</title>
+    <meta name="author" content="Pietro  Lesci" />
+    <meta name="description" content="A gentle introduction with code examples" />
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,500;1,100;1,500&display=swap">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⇒</text></svg>">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://pietrolesci.github.io/blog/2019/mcmc-tfp/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://pietrolesci.github.io/"><span class="font-weight-bold">Pietro</span>   Lesci</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Bayesian inference with MCMC</h1>
+    <p class="post-meta">June 19, 2019</p>
+    <p class="post-tags">
+      <a href="/blog/2019"> <i class="fas fa-calendar fa-sm"></i> 2019 </a>
+      &nbsp; &middot; &nbsp;
+        <a href="/blog/tag/python">
+          <i class="fas fa-hashtag fa-sm"></i> python</a> &nbsp;
+          <a href="/blog/tag/statistics">
+          <i class="fas fa-hashtag fa-sm"></i> statistics</a> &nbsp;
+          <a href="/blog/tag/tensorFlow">
+          <i class="fas fa-hashtag fa-sm"></i> tensorFlow</a> &nbsp;
+          <a href="/blog/tag/pymc">
+          <i class="fas fa-hashtag fa-sm"></i> pymc</a> &nbsp;
+          
+      &nbsp; &middot; &nbsp;
+        <a href="/blog/category/probabilistic-programming">
+          <i class="fas fa-tag fa-sm"></i> probabilistic-programming</a> &nbsp;
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p><a href="https://colab.research.google.com/drive/1tDfViP2s2JvrMONrweK3M3KqHrH-m-tR"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Collab" /></a></p>
+
+<p>This blog post is an attempt at trying to explain the intuition behind MCMC sampling: specifically, a particular instance of the <strong>Metropolis-Hasting algorithm</strong>. Critically, we’ll be using <code class="language-plaintext highlighter-rouge">TensorFlow-Probability</code> code examples to explain the various concepts.</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>First, let’s import our modules. Note that we will use TensorFlow 2 Beta and we will use the TFP nightly distribution with works fine with TF2.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
+<span class="kn">import</span> <span class="nn">tensorflow_probability</span> <span class="k">as</span> <span class="n">tfp</span>
+<span class="n">tfd</span> <span class="o">=</span> <span class="n">tfp</span><span class="p">.</span><span class="n">distributions</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+
+<span class="n">tf</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">set_seed</span><span class="p">(</span><span class="mi">1905</span><span class="p">)</span>
+
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="n">sns</span><span class="p">.</span><span class="nb">set</span><span class="p">(</span><span class="n">rc</span><span class="o">=</span><span class="p">{</span><span class="s">'figure.figsize'</span><span class="p">:(</span><span class="mf">9.3</span><span class="p">,</span><span class="mf">6.1</span><span class="p">)})</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">set_context</span><span class="p">(</span><span class="s">'paper'</span><span class="p">)</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">set_style</span><span class="p">(</span><span class="s">'whitegrid'</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">tf</span><span class="p">.</span><span class="n">__version__</span><span class="p">,</span> <span class="n">tfp</span><span class="p">.</span><span class="n">__version__</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2.0.0 0.7.0
+</code></pre></div></div>
+
+<p>Let’s generate some data: 20 points from a Gaussian distribution centered around zero (the true Data-Generating Process that we want to discover from the 20 samples we can see). Note that in TFP the Gaussian distribution is parametrized by mean and standard deviation, not the variance.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">true_dgp</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mf">0.</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">1.</span><span class="p">)</span>
+<span class="n">observed</span> <span class="o">=</span> <span class="n">true_dgp</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">observed</span><span class="p">,</span> <span class="n">kde</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">despine</span><span class="p">();</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_7_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_7_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_7_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_7_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<p>We have some observations $x$.</p>
+
+<p>Usually (in parametric statistics) we assume a data-generating process, i.e. a model $P(x\mid \theta)$, from which the data we see had been sampled – note that $P$ is used to denote a probability density/mass function. Looking at the data, we come up – somehow – with the idea that a good model for our data is the Gaussian distribution. In other words, we assume that the data are normally distributed.</p>
+
+<p>The model often depends on unknown parameters $\theta$. They can be unknown because they are intrinsecally random or because simply we do not know them. A normal distribution has two parameters: the mean, $\mu$, and the standard deviation, $\sigma$. For simplicity, we assume we know $\sigma=1$ and we want to make inference on $\mu$ only, that is $\theta \equiv \mu$.</p>
+
+<p>From a Bayesian viewpoint, we have to define a prior distribution for this parameter, i.e. $P(\theta)$. Let’s also assume a normal distribution as a prior for $\mu$. Our model can be written as follows (we assumed that the prior is a Gaussian distribution with mean 4 and stardard deviation 2)</p>
+
+\[x_i\mid \mu \stackrel{i.i.d.}{\sim} \mathcal{N}(\mu, \sigma=1)\]
+
+\[\mu \sim \mathcal{N}(\mu_0 = 4, \sigma_0 = 2)\]
+
+<p>In the Bayesian Stat lingo, this way of writing the model derives from the fact that knowing nothing about the joint distribution of the $x$’s’ we can assume <a href="https://en.wikipedia.org/wiki/Exchangeable_random_variables">exchangeability</a>. By the <a href="https://en.wikipedia.org/wiki/De_Finetti%27s_theorem">De Finetti’s Theorem</a> we arrive to the above formulation. Anyway, this goes beyond the scope of this blog post. For more information on Bayesian Analysis look at (the bible) <a href="http://www.stat.columbia.edu/~gelman/book/">Gelman et al. book</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># prior
+</span><span class="n">mu_0</span><span class="p">,</span> <span class="n">sigma_0</span> <span class="o">=</span> <span class="mf">4.</span><span class="p">,</span> <span class="mf">2.</span>
+<span class="n">prior</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">mu_0</span><span class="p">,</span> <span class="n">sigma_0</span><span class="p">)</span>
+
+<span class="c1"># likelihood
+</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span> <span class="o">=</span> <span class="n">prior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mf">1.</span> <span class="c1"># use a sample from the prior as guess for mu
+</span><span class="n">likelihood</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span> 
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="digression">Digression</h3>
+<p>Note that actually what I called likelihood, is the likelihood for one specific datapoint – call it $\mathrm{likelihood}<em>i, i=1,\dots,N$. The “proper” likelihood function is (given that we have an _i.i.d.</em> sample) equal to the product of the “per-datapoint” likelihoods</p>
+
+\[\mathcal{L}(\mu; x) = \prod_{i=1}^n \underbrace{\frac{1}{\sqrt{2\pi\sigma^2}} \exp \left\{-\frac{(x_i-\mu)^2}{2\sigma^2}\right\}}_{\mathcal{L}(\mu; x_i)}\]
+
+<p>When we consider the loglikelihood, obviously, for an <em>i.i.d.</em> sample, the loglikelihood is the sum of the individual “per-datapoint” likelihoods</p>
+
+\[\mathcal{l}(\mu; x) = \sum_{i=1}^n \mathcal{l}(\mu; x_i)\]
+
+<p>Usually, the likelihood is denoted by $\mathcal{L}(\mu; x)$ or $p(x\mid \mu)$.</p>
+
+<hr />
+
+<p>Since we do not know the mean of the Gaussian distribution which generated the data, we use a sample from the prior distribution as a guess for $\mu$ in order to be able to draw it (we need a value), the likelihood has a mean similar to that of the prior distribution.</p>
+
+<p>In the graph below, I plot both the prior and the likelihood, as well as the true data-generating process with the data plotted as a rug</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">rugplot</span><span class="p">(</span><span class="n">observed</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">prior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">likelihood</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">true_dgp</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">despine</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s">'Data'</span><span class="p">,</span> <span class="s">'Prior'</span><span class="p">,</span><span class="s">'Likelihood'</span><span class="p">,</span> <span class="s">'True DGP'</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">);</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_14_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_14_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_14_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_14_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<!-- ![png](../../../assets/img/mcmc-tfp/output_14_0.png) -->
+
+<p>In the Bayesian framework, inference, i.e. knowing something more about the unknown parameters, is solved by the Bayes formula</p>
+
+\[P(\theta\mid x)=\frac{P(x\mid \theta)P(\theta)}{P(x)}\]
+
+<p>The posterior distribution $P(\theta\mid x)$ – that is, what we know about our model parameters $\theta$ after having seen thet data $x$ – is our quantity of interest.</p>
+
+<p>To compute it, we multiply the <strong>prior</strong> $P(\theta)$ (what we think about $\theta$ before we have seen any data) and the <strong>likelihood</strong> $P(x\mid \theta)$, dividing by the <strong>evidence</strong> $P(x)$ (a.k.a. <em>marginal likelihood</em>).</p>
+
+<p>However, let’s take a closer look at this last term: the denominator, $P(x)$. We do not observe it, but we can compute this quantity by integrating over all possible parameter values:</p>
+
+\[P(x)=\int_\Theta P(x,\theta) \ d\theta\]
+
+<p>This is the key difficulty with the Bayes formula – while the formula looks pretty enough, for even slightly non-trivial models we cannot compute the posterior in a closed-form way.</p>
+
+<p><strong>NOTE</strong>: $P(x)$ is a normalizing constant. Up to this normalizing constant, we know exactly how the <em>unnormalized</em> posterior distribution looks like, i.e.</p>
+
+\[P(\theta\mid x) \propto P(x\mid \theta) P(\theta)\]
+
+<p>(where $\propto$ mean “proportional to”). Since we defined both terms on the rhs, <strong>we DO know how to sample from the unnormalized posterior distribution</strong></p>
+
+<p>Furthermore, by the product rule  – $P(A, B) = P(A\mid B) P(B)$ – we can write</p>
+
+\[P(\theta\mid x) \propto P(x, \theta)\]
+
+<p>meaning that the unnormalized posterior is proportional to the joint distribution of $x$ and $\theta$.</p>
+
+<p>Back to the example. The prior distribution we defined is convenient because we can actually compute the posterior distribution analytically. That’s because for a normal likelihood with known standard deviation, the normal prior distribution for $\mu$ is <a href="https://en.wikipedia.org/wiki/Conjugate_prior">conjugate</a>, i.e. our posterior distribution will belong to the same family of distributions of the prior. Therefore, we know that our posterior distribution for $\mu$ is also normal. For a mathematical derivation see <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxiYXllc2VjdHxneDplNGY0MDljNDA5MGYxYTM">here</a>.</p>
+
+<p>Let’s define a function which computes the updates for the parameters of the posterior distribution analytically</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">get_param_updates</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">prior_mu</span><span class="p">,</span> <span class="n">prior_sigma</span><span class="p">):</span> <span class="c1">#sigma is known
+</span>    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">sigma2</span> <span class="o">=</span> <span class="n">sigma</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">prior_sigma2</span> <span class="o">=</span> <span class="n">prior_sigma</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">x_bar</span> <span class="o">=</span> <span class="n">tf</span><span class="p">.</span><span class="n">reduce_mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    
+    <span class="n">post_mu</span> <span class="o">=</span> <span class="p">((</span><span class="n">sigma2</span> <span class="o">*</span> <span class="n">prior_mu</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">prior_sigma2</span> <span class="o">*</span> <span class="n">x_bar</span><span class="p">))</span> <span class="o">/</span> <span class="p">((</span><span class="n">n</span> <span class="o">*</span> <span class="n">prior_sigma2</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">sigma2</span><span class="p">))</span>
+    <span class="n">post_sigma2</span> <span class="o">=</span> <span class="p">(</span><span class="n">sigma2</span> <span class="o">*</span> <span class="n">prior_sigma2</span><span class="p">)</span> <span class="o">/</span> <span class="p">((</span><span class="n">n</span> <span class="o">*</span> <span class="n">prior_sigma2</span><span class="p">)</span> <span class="o">+</span> <span class="n">sigma2</span><span class="p">)</span>
+    <span class="n">post_sigma</span> <span class="o">=</span> <span class="n">tf</span><span class="p">.</span><span class="n">math</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">post_sigma2</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">post_mu</span><span class="p">,</span> <span class="n">post_sigma</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># posterior
+</span><span class="n">mu_n</span><span class="p">,</span> <span class="n">sigma_n</span> <span class="o">=</span> <span class="n">get_param_updates</span><span class="p">(</span><span class="n">observed</span><span class="p">,</span>
+                                  <span class="n">sigma</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> 
+                                  <span class="n">prior_mu</span><span class="o">=</span><span class="n">mu_0</span><span class="p">,</span> 
+                                  <span class="n">prior_sigma</span><span class="o">=</span><span class="n">sigma_0</span><span class="p">)</span>
+<span class="n">posterior</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">mu_n</span><span class="p">,</span> <span class="n">sigma_n</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'posterior'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In the graph below, I plot both the prior and the posterior distributions. Furthermore, I plot the likelihood both with mean set to a sample from the prior and a sample from the posterior</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">prior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">posterior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">likelihood</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">posterior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mf">1.</span><span class="p">).</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">despine</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s">'Prior'</span><span class="p">,</span><span class="s">'Posterior'</span><span class="p">,</span> <span class="s">'Likelihood (prior)'</span><span class="p">,</span> <span class="s">'Likelihood (Posterior)'</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">);</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_23_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_23_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_23_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_23_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<!-- ![png](../../../assets/img/mcmc-tfp/output_23_0.png) -->
+
+<p>This shows our quantity of interest (orange): the probability of $\mu$’s values after having seen the data, taking our prior information into account.</p>
+
+<p>The important thing to acknowledge is that, without conjugacy, we would not even be capable of sketching the posterior distribution: we would not know its shape at all. Let’s assume, however, that our prior was not conjugate and we could not solve this by hand – which is often the case.</p>
+
+<h2 id="approximation-methods">Approximation methods</h2>
+
+<p>When we do not have access to the analytic form of the posterior distribution we can resort to MCMC methods. The basic idea is that we can find strategies to sample from the posterior distribution, even if we cannot “write it down”. These samples are then used to approximate the posterior distribution. One simple strategy to get samples from the posterior distribution is the <strong>Rejection Sampling algorithm</strong>.</p>
+
+<h3 id="rejection-sampling">Rejection Sampling</h3>
+
+<p>The basic idea of rejection sampling is to sample from an <em>instrumental distribution</em> and reject samples
+that are “unlikely” under the <em>target distribution</em>. Here we consider a very specific instance of rejection sampling:
+the <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf"><strong>Naive Rejection Sampling</strong></a>.</p>
+
+<p>Suppose that you can sample from a joint distribution $P(X, \theta)$ (where $X$ is random as well) – we have seen that we can sample from it since using the product rule we get $P(X, \theta) = P(X\mid \theta) P(\theta)$, which are both defined by us, so we know how to sample from them!</p>
+
+<p>We are interested in sampling $\theta$ from the conditional distribution $P(\theta\mid X = x)$, for some fixed values of $x$ – i.e. the observed data.</p>
+
+<p>The Naive Rejection Sampling algorithm works as follows:</p>
+
+<ol>
+  <li>
+    <p>Sample $\theta$ from the prior $P(\theta)$ and $X$ from the likelihood $P(X\mid \theta)$</p>
+  </li>
+  <li>
+    <p>If $X = x$ (the observed data) , accept $\theta$ as a sample from the posterior $P(\theta\mid X = x)$ , otherwise return to (1) and repeat</p>
+  </li>
+</ol>
+
+<p>Each time you return to step 1, the samples of $\theta$ are independent from the previous ones.</p>
+
+<p>Pros: step 1 is often practical because both the prior and the likelihood are often easy-to-sample distributions. Cons: the clear shortcoming is that step 2 can be very unlikely and thus we will very rarely (if ever) accept the candidate sample $\theta$.</p>
+
+<p>This simple implementation of rejection sampling is enough to provide some intuition and motivates the use of more sophisticated and robust sampling algorithms based on Markov chains.</p>
+
+<h3 id="mcmc-the-random-walk-metropolis-hasting-algorithm">MCMC: The Random-Walk Metropolis-Hasting algorithm</h3>
+
+<p>There is a large family of algorithms that perform MCMC. Most of these algorithms can be expressed at a high level as follows:</p>
+
+<ol>
+  <li>
+    <p>Start at current position (i.e. a value for $\theta$, say $\theta^{(1)}$)</p>
+  </li>
+  <li>
+    <p>Propose moving to a new position (say, $\theta^\star$)</p>
+  </li>
+  <li>
+    <p>Accept/Reject the new position based on the position’s adherence to the data and prior distributions</p>
+  </li>
+  <li>
+    <ul>
+      <li>If you accept: Move to the new position (i.e. $\theta^{(2)}=\theta^\star$) and return to Step 1</li>
+      <li>Else: Do not move to new position. Return to Step 1.</li>
+    </ul>
+  </li>
+  <li>After a large number of iterations, return all accepted positions.</li>
+</ol>
+
+<p>Based on how you implement the above steps you get the various MCMC algorithm. Here we will review the <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf"><strong>Random-Walk Metropolis-Hasting algorithm</strong></a>.</p>
+
+<p>As we have seen, the main drawback of the rejection sampling is that it is not efficient – it is unlikely to get exactly $X = x$, especially when it is high-dimensional.</p>
+
+<p>One way around this problem is to allow for “local updates”, i.e. let the proposed value depend on the last accepted value (here is the part where <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov Chains</a> enter the scene).</p>
+
+<p>This makes it easier to come up with a suitable (conditional) proposal, however at the price of yielding a Markov chain, instead of a sequence of independent <strong>realizations</strong> – putting it simply, a sequence of random variables is a <em>Markov Chain</em> if the future state only depends on the present state.</p>
+
+<p>At first, you find a starting position (can be randomly chosen), lets fix it arbitrarily to</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mu_current</span> <span class="o">=</span> <span class="mf">2.</span>
+</code></pre></div></div>
+
+<p>The critical point is how you propose the new position (that’s the Markov part). You can be very naive or very sophisticated about how you come up with that proposal. The RW-MH algorithm is very naive and just takes a sample from a Gaussian distribution (or whatever simmetric distribution you like) centered on the current value with a certain standard deviation, usually called <em>proposal width</em> that will determine how far you propose jumps. In other words, the RW-MH proposes a new $\theta^\star$ according to</p>
+
+\[\theta^\star = \theta_{s} + \varepsilon, \quad \varepsilon \sim g\]
+
+<p>where $g$ may be any simmetric distribution. Usually, $g = \mathcal{N}(0, \tau)$, so that the proposed new value, $\theta^\star$, is simply a draw from $\mathcal{N}(\theta_{s}, \tau)$.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">proposal_width</span> <span class="o">=</span> <span class="mf">1.</span>
+<span class="n">mu_proposal</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">mu_current</span><span class="p">,</span> <span class="n">proposal_width</span><span class="p">).</span><span class="n">sample</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Next, you evaluate whether that’s a good place to jump to or not. To evaluate if it is good, you compute the ratio</p>
+
+\[\rho = \frac{P(\theta^\star\mid x)}{P(\theta_s\mid x)} = \frac{P(x\mid \theta^\star) P(\theta^\star)/P(x)}{P(x\mid \theta_s) P(\theta_s)/P(x)} = \frac{P(x, \theta^\star)}{P(x, \theta_s)}\]
+
+<p>Here is the trick: the normalizing constants cancel out. We only have to compute the numerator of the Bayes’ formula, that is the product of likelihood and prior. We have seen that it is the same as computing the joint probability distribution – usually, we compute the log joint probability in practise – of the data and the parameter values. TFP performs probabilistic inference by evaluating the model parameters using a <code class="language-plaintext highlighter-rouge">joint_log_prob</code> function that the user as to provide (which we define below).</p>
+
+<p>Then,</p>
+
+<ul>
+  <li>
+    <p>If $\rho\geq1$, set $\theta^{s+1}=\theta^\star$</p>
+  </li>
+  <li>
+    <p>If $\rho&lt;1$, set $\theta_{s+1}=\theta^\star$ with probability $\rho$, otherwise set $\theta_{s+1}=\theta_s$ (this is where we use the standard uniform distribution – in practice you draw a sample $u \sim \mathrm{Unif}(0,1)$ and check if $\rho &gt; u$; if it is you accept the proposal)</p>
+  </li>
+</ul>
+
+<p>To sum up, we accept a proposed move to $\theta^\star$ whenever the density of the (unnormalzied) joint distribution evaluated at $\theta^\star$ is larger than the value of the unnormalized joint distribution evaluated at $\theta_s$ – so $\theta$ will more often be found in places where the unnormalized joint distribution is denser.</p>
+
+<p>If this was all we accepted, $\theta$ would get stuck at a local mode of the target distribution, so we also accept occasional moves to lower density regions.</p>
+
+<p><strong>NOTE</strong>: The model we define enters the inference scheme only when we evaluate the proposal. In other words, the model we define is important made explicit in the definition of the <code class="language-plaintext highlighter-rouge">joint_log_prob</code> function, that is</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>joint_log_prob = model definition
+</code></pre></div></div>
+
+<p>Let’s now define the joint log probability of the normal model above.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># definition of the joint_log_prob to evaluate samples
+</span><span class="k">def</span> <span class="nf">joint_log_prob</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">proposal</span><span class="p">):</span>
+    <span class="n">prior</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">mu_0</span><span class="p">,</span> <span class="n">sigma_0</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'prior'</span><span class="p">)</span>
+    <span class="n">likelihood</span> <span class="o">=</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="n">proposal</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'likelihood'</span><span class="p">)</span>
+  
+    <span class="k">return</span> <span class="n">prior</span><span class="p">.</span><span class="n">log_prob</span><span class="p">(</span><span class="n">proposal</span><span class="p">)</span> <span class="o">+</span> <span class="n">tf</span><span class="p">.</span><span class="n">reduce_mean</span><span class="p">(</span><span class="n">likelihood</span><span class="p">.</span><span class="n">log_prob</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Let’s evaluate the proposal above, i.e. <code class="language-plaintext highlighter-rouge">mu_proposal</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># compute acceptance ratio
+</span><span class="n">p_accept</span> <span class="o">=</span> <span class="n">joint_log_prob</span><span class="p">(</span><span class="n">observed</span><span class="p">,</span> <span class="n">mu_proposal</span><span class="p">)</span> <span class="o">/</span> <span class="n">joint_log_prob</span><span class="p">(</span><span class="n">observed</span><span class="p">,</span> <span class="n">mu_current</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Acceptance probability:'</span><span class="p">,</span> <span class="n">p_accept</span><span class="p">.</span><span class="n">numpy</span><span class="p">())</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Acceptance probability: 1.0373609
+</code></pre></div></div>
+
+<p>It is more than 1, therefore we accept directly. Imagine that <code class="language-plaintext highlighter-rouge">p_accept</code> was $0.8$, then we would have drawn a sample from the uniform distribution and check the following</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">p_accept</span> <span class="o">&gt;</span> <span class="n">tfd</span><span class="p">.</span><span class="n">Uniform</span><span class="p">().</span><span class="n">sample</span><span class="p">():</span>
+    <span class="n">mu_current</span> <span class="o">=</span> <span class="n">mu_proposal</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Proposal accepted'</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Proposal not accepted'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Proposal accepted
+</code></pre></div></div>
+
+<p>At this point we would restart the process again.</p>
+
+<h3 id="tfp-implementation">TFP implementation</h3>
+
+<p>In TFP the algorithm is implemented as follows.</p>
+
+<p>First we define <em>how</em> the step should be taken, i.e. how the proposal should be made. Since we are implementing the RW-MH algorithm we use the function <code class="language-plaintext highlighter-rouge">tfp.mcmc.RandomWalkMetropolis</code>. It takes as argument the unnormalized join distribution that it will use to compute the acceptance ratio. The only thing we have to remenber is that we have to “lock the data” or “define a closure” over our joint_log_prob function. In other words, fix the data input of the function <code class="language-plaintext highlighter-rouge">joint_log_prob</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># define a closure on joint_log_prob
+</span><span class="k">def</span> <span class="nf">unnormalized_log_posterior</span><span class="p">(</span><span class="n">proposal</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">joint_log_prob</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">observed</span><span class="p">,</span> <span class="n">proposal</span><span class="o">=</span><span class="n">proposal</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Now we can pass the <code class="language-plaintext highlighter-rouge">unnormalized_log_posterior</code> as the argument of the function which implements the step</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rwm</span> <span class="o">=</span> <span class="n">tfp</span><span class="p">.</span><span class="n">mcmc</span><span class="p">.</span><span class="n">RandomWalkMetropolis</span><span class="p">(</span>
+    <span class="n">target_log_prob_fn</span><span class="o">=</span><span class="n">unnormalized_log_posterior</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Secondly, we have to define the initial state of the chain, say $\theta_0$. We choose this arbitrarily.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">initial_state</span> <span class="o">=</span> <span class="n">tf</span><span class="p">.</span><span class="n">constant</span><span class="p">(</span><span class="mf">0.</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'initial_state'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Finally, we can sample the chain with the function <a href="https://www.tensorflow.org/probability/api_docs/python/tfp/mcmc/sample_chain"><code class="language-plaintext highlighter-rouge">tf.mcmc.sample_chain</code></a>, which returns the samples (named <code class="language-plaintext highlighter-rouge">trace</code> usign the usual stat lingo) and some additional information regarding the procedure implemented (<code class="language-plaintext highlighter-rouge">kernel_results</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">trace</span><span class="p">,</span> <span class="n">kernel_results</span> <span class="o">=</span> <span class="n">tfp</span><span class="p">.</span><span class="n">mcmc</span><span class="p">.</span><span class="n">sample_chain</span><span class="p">(</span>
+    <span class="n">num_results</span><span class="o">=</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">num_burnin_steps</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span>
+    <span class="n">current_state</span><span class="o">=</span><span class="n">initial_state</span><span class="p">,</span>
+    <span class="n">num_steps_between_results</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">kernel</span><span class="o">=</span><span class="n">rwm</span><span class="p">,</span> 
+    <span class="n">parallel_iterations</span><span class="o">=</span><span class="mi">1</span>
+<span class="p">)</span>
+</code></pre></div></div>
+<p>However, to take full advantage of TF, we will enclose this sampling process into a function and we will decorate it with <a href="https://www.tensorflow.org/tutorials/customization/performance"><code class="language-plaintext highlighter-rouge">tf.function</code></a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">tf</span><span class="p">.</span><span class="n">function</span>
+<span class="k">def</span> <span class="nf">run_chain</span><span class="p">():</span>
+    <span class="n">samples</span><span class="p">,</span> <span class="n">kernel_results</span> <span class="o">=</span> <span class="n">tfp</span><span class="p">.</span><span class="n">mcmc</span><span class="p">.</span><span class="n">sample_chain</span><span class="p">(</span>
+        <span class="n">num_results</span><span class="o">=</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">,</span>
+        <span class="n">num_burnin_steps</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span>
+        <span class="n">current_state</span><span class="o">=</span><span class="n">initial_state</span><span class="p">,</span>
+        <span class="n">kernel</span><span class="o">=</span><span class="n">rwm</span><span class="p">,</span>
+        <span class="n">parallel_iterations</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+        <span class="n">trace_fn</span><span class="o">=</span><span class="k">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">pkr</span><span class="p">:</span> <span class="n">pkr</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">samples</span><span class="p">,</span> <span class="n">kernel_results</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p><strong>Note</strong>: To print the code generated by <code class="language-plaintext highlighter-rouge">tf.function</code> on <code class="language-plaintext highlighter-rouge">fn</code>, use</p>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">tf</span><span class="p">.</span><span class="n">autograph</span><span class="p">.</span><span class="n">to_code</span><span class="p">(</span><span class="n">fn</span><span class="p">.</span><span class="n">python_function</span><span class="p">)</span>
+</code></pre></div>  </div>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">trace</span><span class="p">,</span> <span class="n">kernel_results</span> <span class="o">=</span> <span class="n">run_chain</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">trace</span><span class="p">);</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_55_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_55_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_55_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_55_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<!-- ![png](../../../assets/img/mcmc-tfp/output_55_0.png) -->
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">prior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">posterior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">trace</span><span class="p">)</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">despine</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s">'Prior'</span><span class="p">,</span><span class="s">'Analytic Posterior'</span><span class="p">,</span> <span class="s">'MCMC Posterior'</span><span class="p">])</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">);</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_56_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_56_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_56_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_56_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<!-- ![png](../../../assets/img/mcmc-tfp/output_56_0.png) -->
+
+<p>As you can see, even after $10^5$ samples, the MCMC posterior is not even close to the true posterior. That’s normal since the RW-MH algorithm is not very efficient: it is not a great sampler for this kind of problems. You might need a crazy number of samples before it gets close to the true posterior.</p>
+
+<p>On the other hand, other frameworks like PyMC uses the <a href="http://www.stat.columbia.edu/~gelman/research/published/nuts.pdf">NUTS sampler</a> – a kind of adaptive Hamiltonian Monte Carlo method. TFP supports HMC (<a href="https://www.tensorflow.org/probability/api_docs/python/tfp/mcmc/HamiltonianMonteCarlo"><code class="language-plaintext highlighter-rouge">tfp.mcmc.HamiltonianMonteCarlo</code></a>), but still you might have to tune the step size and leapfrog steps parameters (this is the thing that NUTS does adaptively for you). That alone should get you closer to consistent results.</p>
+
+<hr />
+
+<p>For more material on this subject consult <a href="https://twiecki.io/">Thomas Wiecki’s Blog</a>, <a href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_TFP.ipynb">Bayesian Methods for Hacker book</a>, <a href="http://people.duke.edu/~ccc14/sta-663-2017/20A_MCMC.html">Duke University STAT course page</a>, and <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/johansen/teaching/mcm-2007.pdf">this lecture notes</a> for a technical review of Monte Carlo Methods. The material covered here was inspired by Thomas Wiecki’s <a href="https://twiecki.io/blog/2015/11/10/mcmc-sampling/">blogpost</a>.</p>
+
+<p>In a future blogpost I will discuss in more detail both the TFP implemetation of MCMC methods and the diagnostics of the MCMC procedure.</p>
+
+<hr />
+
+<h2 id="bonus-pymc3-implementation-with-nuts">Bonus: PyMC3 implementation with NUTS</h2>
+
+<p>Without going into the detail of the procedure (left as a future blogpost), below I implement the same procedure, but using <code class="language-plaintext highlighter-rouge">pymc3</code> and its default sampler (NUTS)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pymc3</span> <span class="k">as</span> <span class="n">pm</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">pm</span><span class="p">.</span><span class="n">Model</span><span class="p">()</span> <span class="k">as</span> <span class="n">model</span><span class="p">:</span>
+  <span class="n">mu</span> <span class="o">=</span> <span class="n">pm</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="s">'mu'</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="mf">4.</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">2.</span><span class="p">)</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="n">pm</span><span class="p">.</span><span class="n">Normal</span><span class="p">(</span><span class="s">'observed'</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">observed</span><span class="o">=</span><span class="n">observed</span><span class="p">)</span>
+  <span class="n">trace_pm</span> <span class="o">=</span> <span class="n">pm</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10000</span><span class="p">,</span> <span class="n">tune</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">chains</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>100% |██████████|  10500/10500 [00:05&lt;00:00, 1971.43it/s]
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">posterior</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">trace_pm</span><span class="p">[</span><span class="s">'mu'</span><span class="p">])</span>
+<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">trace</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">legend</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s">'Analytic Posterior'</span><span class="p">,</span> <span class="s">'PyMC Posterior'</span><span class="p">,</span> <span class="s">'TFP Posterior'</span><span class="p">]);</span>
+</code></pre></div></div>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mcmc-tfp/output_65_0-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mcmc-tfp/output_65_0-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mcmc-tfp/output_65_0-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mcmc-tfp/output_65_0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+<!-- ![png](../../../assets/img/mcmc-tfp/output_65_0.png) -->
+
+<p>As you might notice, just after $10^4$ samples, the NUTS is able to retrieve the true posterior (they are in fact indistinguishable).</p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        &copy; Copyright 2022 Pietro  Lesci. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+Last updated: September 02, 2022.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    // look at this https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering
+    MathJax = {
+      tex: {
+        // tags: 'ams',
+        inlineMath: [['$', '$'], ["\\(", "\\)"]],
+        processEscapes: true,
+      }
+    };
+    </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+  </body>
+</html>
