@@ -1,0 +1,35 @@
+name: jekyll-cd
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master
+
+      - name: Create CNAME
+        run: echo "pietrolesci.com" > ./_site/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          external_repository: pietrolesci/pietrolesci.github.io
+          publish_dir: ./_site
+          #   keep_files: true
+          user_name: pietrolesci
+          user_email: pietrolesci@outlook.com
+          publish_branch: master
