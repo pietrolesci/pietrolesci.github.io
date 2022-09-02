@@ -27,7 +27,7 @@ jobs:
       
       - name: 🧪 Build and deploy
         # uses: victoriadrake/jekyll-cd@master
-        uses: jekyll-build-pages
+        uses: actions/jekyll-build-pages@v1.0.5
 
       - name: Create CNAME
         run: echo "pietrolesci.com" > ./_site/CNAME
