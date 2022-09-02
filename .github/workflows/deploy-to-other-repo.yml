@@ -37,8 +37,8 @@ jobs:
           publish_branch: master
           publish_dir: ./public
           #   keep_files: true
-          # personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          deploy_key: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          # deploy_key: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # github_token: ${{ secrets.GITHUB_TOKEN }}
           user_name: pietrolesci
           user_email: pietrolesci@outlook.com
