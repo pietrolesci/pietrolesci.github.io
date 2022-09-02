@@ -1,97 +1,152 @@
-- title: General Information
+- title: General information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Pietro Lesci
+    # - name: Date of Birth
+    #   value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: Italian, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of Cambridge
+      year: 2021 - Present
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: MSc in Economic and Social Sciences
+      institution: Bocconi University
+      year: 2016 - 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 'Dissertation: "<i>Deep Learning: A Statistical Perspective</i>"'
+    - title: BSc in Economics and Management
+      institution: Università del Sacro Cuore
+      year: 2013 - 2016
       description:
-        - Description 1.
-        - Description 2.
+        - 'Dissertation: "<i>Market Sentiment and Monetary Policy</i>"'
+    - title: Scientific High School Diploma
+      institution: Liceo Scientifico "Enrico Mattei" (Castrovillari)
+      year: 2008 - 2013
+      description:
+        - 'Dissertation: "<i>Market Sentiment and Monetary Policy</i>"'
+
+- title: Research experience
+  type: time_table
+  contents:
+    - title: Applied Scientist intern
+      institution: Amazon AWS - AI Labs
+      year: Present
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: NLP Engineer
+      institution: Theia Insights
+      year: 2022
+      description:
+        - Development of NER annotation pipeline
+        - Development and training of transformer-based models for NER
+
+    - title: Research Assistant
+      institution: Bocconi Institute for Data Science and Analytics
+      year: 2019 - 2020
+      description:
+        - Working with Prof Dirk Hovy, as part of the DMI research unit, on the identification of echo chambers and online abuse on Twitter
+        - "Development of machine learning web-apps: Wordify and MACE"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Associate, Data Science
+      institution: Bain & Company
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Data-driven quality assurance (industry: mining)"
+        - "Pricing optimization (industry: packaging machines)"
+        - "Predictive maintenance in hydropower plants (industry: energy)"
+        - "Client segmentation (industry: road tolls and telco)"
+        - "Development of an internal Python library for NLP"
+        - "Deployment of NLP end-to-end solutions for product categorization"
+
+    - title: Software Engineer (part-time contractor)
+      institution: HDM Group
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Development of a time-sheet management tool (industry: energy)"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Data Science Trainee
+      institution: European Central Bank
+      year: 2018
       description:
+        - Data quality management of private and public sector granular master data for the Directorate of General Statistics
+        - "Database reconciliation: lead of the RIAD-GLEIF project"
+        - Selected member oftheRIAD–AnaCredittask force with experts from the National Central Banks and the financial sector
+        - Speaker during regular plenary meetings with experts from the National Central Banks (reserved only to a restricted group of trainees)
+        - Automation of a data ingestion and deduplication procedure (80% efficiency gain) used in the computation of the Euro Short-Term rate
+        - Development of automated internal reports and dashboards
+        - Production of statistical reports published on the ECB website
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Open-source projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/pietrolesci/energizer">energizer</a>
+      year: 2022 - Present
+      description: An active learning library for PyTorch
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/MilaNLProc/wordify-webapp-streamlit">Wordify</a>
+      year: 2019 - 2022
+      description: <a href="https://huggingface.co/spaces/MilaNLProc/wordify">Wordify</a> makes it easy to identify words that discriminate categories in textual data.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://github.com/MilaNLProc/mace-webapp">MACE</a>
+      year: 2019 - 2022
+      description: <a href="https://mace.unibocconi.it/">MACE</a> makes it easy to compute inter-annotators agreement statistics.
 
-- title: Other Interests
+- title: Reviewer experience
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - EMNLP 2022
+    - ACL 2021
+    
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2006
+#       items: 
+#         - First student admitted to a Bachelor of Art
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Other interests
+  type: list
+  contents:
+    - Enrolled in the BSc in Jazz, GPA 29.7/30
+    - Classical Piano classes (12 years)
+    - Bass Guitar classes (10 years)
+    - Sol-Fa degree and Piano and 5th year diploma
+    - Volunteering at Associazione “Il Sorriso” ONLUS
+    - Organist and Choir Director
+    - Singer, bassist, and arranger in jazz ensembles and a rock trio
