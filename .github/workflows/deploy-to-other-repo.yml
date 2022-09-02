@@ -15,17 +15,17 @@ jobs:
         with:
           fetch-depth: 1
 
-      # - name: cache
-      #   uses: actions/cache@v2
-      #   with:
-      #     path: vendor/bundle
-      #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-gems-
+      - name: cache
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       
-      # - name: 🧪 Build and deploy
-      #   # uses: victoriadrake/jekyll-cd@master
-      #   uses: actions/jekyll-build-pages@v1.0.5
+      - name: 🧪 Build and deploy
+        # uses: victoriadrake/jekyll-cd@master
+        uses: actions/jekyll-build-pages@v1.0.5
 
       # - name: Create CNAME
       #   run: echo "pietrolesci.com" > ./_site/CNAME
@@ -36,10 +36,7 @@ jobs:
           external_repository: pietrolesci/pietrolesci.github.io
           publish_branch: master
           publish_dir: ./_site
-          #   keep_files: true
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # deploy_key: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
           user_name: pietrolesci
           user_email: pietrolesci@outlook.com
           enable_jekyll: true
