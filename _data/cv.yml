@@ -43,13 +43,6 @@
     - title: Applied Scientist intern
       institution: Amazon AWS - AI Labs
       year: Present
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
     - title: NLP Engineer
       institution: Theia Insights
       year: 2022
@@ -96,6 +89,28 @@
         - Development of automated internal reports and dashboards
         - Production of statistical reports published on the ECB website
 
+- title: Teaching experience
+  type: time_table
+  contents:
+    - title: Head Demonstrator
+      institution: Unversity of Cambridge
+      year: 2022
+      description: Lead practical sessions for undergraduate students and cohordinate the work of the other Demonstrators.
+    - title: Demonstrator and Supervisor
+      institution: Unversity of Cambridge
+      year: 2021
+      description:
+        - Lead practical sessions for undergraduate students
+        - Meet and coach a small groups of undergraduate students weekly
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: "Transformer models in NLP: Theory and Applications"
+      institution: Ammagamma as part of "Chiostro Aperto" talk series
+      year: 2022
+      description: A high-level introduction to transformers and their components with a particular focus on self-attention, parameter-efficient fine-tuning, and the toolbox to use these models.
+
 - title: Open-source projects
   type: time_table
   contents:
@@ -114,8 +129,9 @@
 - title: Reviewer experience
   type: list
   contents:
-    - EMNLP 2022
-    - ACL 2021
+    - ACL 2021, 2022, 2023
+    - EMNLP 2022, 2023
+    - EACL 2023
     
 # - title: Honors and Awards
 #   type: time_table
