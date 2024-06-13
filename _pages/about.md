@@ -17,4 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in the department of [Computer Science at Cambridge University](https://www.cst.cam.ac.uk/) and I am part of the [Natural Language and Information Processing Research Group](https://www.cl.cam.ac.uk/research/nl/). I am working on Natural Language Processing with Prof [Andreas Vlachos](https://andreasvlachos.github.io/). In my research, I am generally interested in combining causal methods from econometrics to study the effect of data on model learning dynamics and behaviours. Projects I worked or am working on relate to active learning, data valuation using curvature information, and memorisation in large language models.
+I am a PhD student in Computer Science at the [University of Cambridge](https://www.cst.cam.ac.uk/) and I am part of the [Natural Language and Information Processing Research Group](https://www.cl.cam.ac.uk/research/nl/) where I am working with Prof [Andreas Vlachos](https://andreasvlachos.github.io/). 
+Broadly, I am interested in Natural Language Processing and Machine Learning. I am passionate about the science of language models: developing methods—also drawing from econometrics—to study the effect of training data on models’ behaviour. Currently, I focus on active learning, data valuation, and memorisation estimation.
+
