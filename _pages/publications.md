@@ -1,12 +1,27 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: Publications by categories in reversed chronological order.
+permalink: /research/
+title: research
+# description: Publications by categories in reversed chronological order.
 years: [2024, 2023]
 nav: true
 nav_order: 1
 ---
+
+
+I am passionate about the science of language models: developing methods---also drawing from
+econometrics---to study the effect of training data on models’ behaviour. Currently, I focus
+on active learning, data valuation, and memorisation estimation.
+
+See the up-to-date list of publications on my <a href="https://scholar.google.com/citations?user=uRIcVlAAAAAJ" title="Google Scholar">Google Scholar</a> page.
+
+<!-- <div class="social">
+  <div class="contact-icons">
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>          
+  </div>
+</div> -->
+
+
 <!-- _pages/publications.md -->
 <div class="publications">
 

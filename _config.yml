@@ -6,12 +6,12 @@ title: blank  # the website title (if blank, full name will be used instead)
 first_name: Pietro
 middle_name:
 last_name: Lesci
-email: pietrolesci@outlook.com
+# email: pietrolesci@outlook.com
 description: >  # the ">" symbol means to ignore newlines until "footer_text:"
   Pietro Lesci's personal website
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# footer_text: >
+#   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en  # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -27,7 +27,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -55,10 +55,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: pietrolesci  # your GitHub user name
 twitter_username: pietro_lesci  # your Twitter handle
 linkedin_username: pietrolesci  # your LinkedIn user name
-scholar_userid: uRIcVlAAAAAJ  # your Google Scholar ID
+# scholar_userid: uRIcVlAAAAAJ  # your Google Scholar ID
 
 contact_note: >
-  The best way to reach out to me is via email or LinkedIn
+  Reach me at <a href='mailto:pl487@cam.ac.uk'>pl487@cam.ac.uk</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
