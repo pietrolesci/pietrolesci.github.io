@@ -8,10 +8,10 @@ category: work
 date: "2022-01-04" 
 ---
 
-Wordify is a free and easy-to-use online text-analysis tool that allows everyone to use the Wordify algorithm proposed in [Wordify: A Tool for Discovering and Differentiating Consumer Vocabularies](https://academic.oup.com/jcr/article/48/3/394/6199426) by Hovy, Dirk and Melumad, Shiri and Inman, J. Jeffrey. I built this online tool in late 2019 when I joined the [MilaNLPLab](https://milanlproc.github.io/) of Dirk Hovy as a research assistant. Since then, I have kept maintaining it In early 2022 we deployed a new, more interactive version.
+Wordify is a free and easy-to-use online text-analysis tool that allows everyone to use the Wordify algorithm proposed in [Wordify: A Tool for Discovering and Differentiating Consumer Vocabularies](https://academic.oup.com/jcr/article/48/3/394/6199426) by Dirk Hovy, Shiri Melumad, and J. Jeffrey Inman. I built this online tool in late 2019 when I joined the [MilaNLP](https://milanlproc.github.io/) lab as a research assistant. Since then, I have kept maintaining it until early 2022 when we deployed a new, more interactive version. I still occasionally help out.
 
 
-### Description
+## Description
 At a high level, Wordify makes it easy to identify words that discriminate categories in textual data. For example, to understand how consumer word use varies across contexts. More specifically, Wordify, uses randomized logistic regression (RLR) to identify the words that best discriminate texts drawn from different pre-classified corpora, such as posts written by men versus women, or texts containing mostly negative versus positive valence. 
 
 In the paper, the authors present illustrative examples to show how the tool can be used for such diverse purposes as (1) uncovering the distinctive vocabularies that consumers use when writing reviews on smartphones versus PCs, (2) discovering how the words used in Tweets differ between presumed supporters and opponents of a controversial ad, and (3) expanding the dictionaries of dictionary-based sentiment-measurement tools. They show empirically that Wordify’s RLR algorithm performs better at discriminating vocabularies than support vector machines and chi-square selectors, while offering significant advantages in computing time. A discussion is also provided on the use of Wordify in conjunction with other text-analysis tools, such as probabilistic topic modeling and sentiment analysis, to gain more profound knowledge of the role of language in consumer behavior.
@@ -19,11 +19,11 @@ In the paper, the authors present illustrative examples to show how the tool can
 It currently supports the following languages: English, Italian, German, Spanish, Greek, Dutch, Portuguese, French, Danish, Lithuanian, Norvegian, Polish, Romanian, Russian, MultiLanguage, and Chinese.
 
 
-### Useful links
-You can find the code reposity on [Github](https://github.com/MilaNLProc/wordify-webapp-streamlit). The tool can be accessed on the [MilaNLPLab's server](https://wordify.unibocconi.it/), the [MilaNLPLab HuggingFace Space](https://huggingface.co/spaces/MilaNLProc/wordify), and [my personal HuggingFace Space](https://huggingface.co/spaces/pietrolesci/wordify).
+## Useful links
+You can find the code reposity on [Github](https://github.com/MilaNLProc/wordify-webapp-streamlit). The tool can be accessed on the [MilaNLP's server](https://wordify.unibocconi.it/), the [MilaNLP HuggingFace Space](https://huggingface.co/spaces/MilaNLProc/wordify), and [my personal HuggingFace Space](https://huggingface.co/spaces/pietrolesci/wordify).
 
 
-### Implementation
+## Implementation
 Wordify is implemented entirely in Python. It is composed of 4 main parts and each part is built with domain-specific libraries. In particular:
 
 - The UI: `streamlit`
@@ -50,5 +50,5 @@ vdf["processed_text"] = vdf.apply(fn, arguments=[vdf[text_column]])
 df = vdf.to_pandas_df()
 ```
 
-### Deployment
-Deployment on the MilaNLPLab's server is done via git pulls - the app runs within a Docker container. Deployment on the HuggingFace Spaces is done via Github Actions.
+## Deployment
+Deployment on the MilaNLP's server is done via git pulls - the app runs within a Docker container. Deployment on the HuggingFace Spaces is done via Github Actions.
