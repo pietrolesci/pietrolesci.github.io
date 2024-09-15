@@ -19,9 +19,13 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student in Computer Science at the [University of Cambridge](https://www.cst.cam.ac.uk/) advised by [Andreas Vlachos](https://andreasvlachos.github.io/). 
 
-Broadly, I am interested in Natural Language Processing and Machine Learning. I am passionate about the science of language models: developing methods---also drawing from econometrics---to study the effect of training data on models’ behaviour. Currently, I focus on active learning, data valuation, and memorisation estimation.
+I am interested in Natural Language Processing and Machine Learning. I am passionate about the science of language models: developing and applying causal methods---drawing from econometrics---to study the effect of training choices on models’ behaviour, including memorisation, shortcut learning, and tokenisation. 
 
+3+ years experience across research labs, consulting firms, and international institutions training custom models and developing data science solutions.
 Find my cv here <a href="assets/pdf/cv.pdf"><i class="fas fa-file-pdf"></i></a>.
+
+<!-- Currently, I focus on active learning, data valuation, and memorisation estimation. -->
+
 <!-- Find my cv here <a href="assets/pdf/cv.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a> -->
 
 <!-- Reach me at <a href='mailto:pl487@cam.ac.uk'>pl487@cam.ac.uk</a>. -->
@@ -32,4 +36,3 @@ Reach me at <a href='mailto:pl487@cam.ac.uk'>pl487@cam.ac.uk</a>.
 
 <!-- I am a PhD student in Computer Science at the [University of Cambridge](https://www.cst.cam.ac.uk/) and I am part of the [Natural Language and Information Processing Research Group](https://www.cl.cam.ac.uk/research/nl/) where I am working with Prof [Andreas Vlachos](https://andreasvlachos.github.io/). 
 Broadly, I am interested in Natural Language Processing and Machine Learning. I am passionate about the science of language models: developing methods—also drawing from econometrics—to study the effect of training data on models’ behaviour. Currently, I focus on active learning, data valuation, and memorisation estimation. -->
-
