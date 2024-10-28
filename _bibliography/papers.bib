@@ -10,7 +10,7 @@
 	doi          = {10.18653/v1/2023.findings-acl.615},
 	url          = {https://aclanthology.org/2023.findings-acl.615},
 	abstract     = {Sequence-to-sequence state-of-the-art systems for dialogue state tracking (DST) use the full dialogue history as input, represent the current state as a list with all the slots, and generate the entire state from scratch at each dialogue turn. This approach is inefficient, especially when the number of slots is large and the conversation is long. We propose Diable, a new task formalisation that simplifies the design and implementation of efficient DST systems and allows one to easily plug and play large language models. We represent the dialogue state as a table and formalise DST as a table manipulation task. At each turn, the system updates the previous state by generating table operations based on the dialogue context. Extensive experimentation on the MultiWoz datasets demonstrates that Diable (i) outperforms strong efficient DST baselines, (ii) is 2.4x more time efficient than current state-of-the-art methods while retaining competitive Joint Goal Accuracy, and (iii) is robust to noisy data annotations due to the table operations approach.},
-	arxiv        = {https://arxiv.org/abs/2305.17020},
+	arxiv        = {2305.17020},
 	bibtex_show  = {},
 	code         = {https://github.com/amazon-science/efficient-dialogue-state-tracking-by-sequential-information-processing},
 	editor       = {Rogers, Anna  and Boyd-Graber, Jordan  and Okazaki, Naoaki}
@@ -27,7 +27,7 @@
 	doi          = {10.18653/v1/2024.acl-long.834},
 	url          = {https://aclanthology.org/2024.acl-long.834},
 	editor       = {Ku, Lun-Wei  and Martins, Andre  and Srikumar, Vivek},
-	arxiv        = {https://arxiv.org/abs/2406.04327},
+	arxiv        = {2406.04327},
 	code         = {https://github.com/pietrolesci/memorisation-profiles},
 	bibtex_show  = {},
 	abstract     = {Understanding memorisation in language models has practical and societal implications, e.g., studying models{'} training dynamics or preventing copyright infringements.Prior work defines memorisation as the causal effect of training with an instance on the model{'}s ability to predict that instance. This definition relies on a counterfactual: the ability to observe what would have happened had the model not seen that instance.Existing methods struggle to provide computationally efficient and accurate estimates of this counterfactual. Further, they often estimate memorisation for a model architecture rather than for a specific model instance. This paper fills an important gap in the literature, proposing a new, principled, and efficient method to estimate memorisation based on the difference-in-differences design from econometrics. Using this method, we characterise a model{'}s memorisation profile{--}its memorisation trends across training{--}by only observing its behaviour on a small set of instances throughout training.In experiments with the Pythia model suite, we find that memorisation (i) is stronger and more persistent in larger models, (ii) is determined by data order and learning rate, and (iii) has stable trends across model sizes, thus making memorisation in larger models predictable from smaller ones.}
@@ -44,7 +44,7 @@
 	doi          = {https://doi.org/10.48550/arXiv.2404.05623},
 	url          = {https://aclanthology.org/2024.naacl-long.467},
 	abstract     = {Active learning for imbalanced classification tasks is challenging as the minority classes naturally occur rarely. Gathering a large pool of unlabelled data is thus essential to capture minority instances. Standard pool-based active learning is computationally expensive on large pools and often reaches low accuracy by overfitting the initial decision boundary, thus failing to explore the input space and find minority instances. To address these issues we propose AnchorAL. At each iteration, AnchorAL chooses class-specific instances from the labelled set, or anchors, and retrieves the most similar unlabelled instances from the pool. This resulting subpool is then used for active learning. Using a small, fixed-sized subpool AnchorAL allows scaling any active learning strategy to large pools. By dynamically selecting different anchors at each iteration it promotes class balance and prevents overfitting the initial decision boundary, thus promoting the discovery of new clusters of minority instances. Experiments across different classification tasks, active learning strategies, and model architectures AnchorAL is (i) faster, often reducing runtime from hours to minutes, (ii) trains more performant models, (iii) and returns more balanced datasets than competing methods.},
-	arxiv        = {https://arxiv.org/abs/2404.05623},
+	arxiv        = {2404.05623},
 	bibtex_show  = {},
 	code         = {https://github.com/pietrolesci/anchoral},
 	editor       = {Duh, Kevin and Gomez, Helena and Bethard, Steven}
@@ -54,7 +54,7 @@
 	author       = {Diehl Martinez, Richard and Lesci, Pietro and Buttery, Paula},
 	year         = 2024,
 	month        = nov,
-	arxiv        = {https://arxiv.org/abs/2410.11451},
+	arxiv        = {2410.11451},
 	code         = {https://github.com/rdiehlmartinez/pretraining-playground},
 	booktitle    = {(to appear) Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
 	address      = {Miami, Florida, USA},
