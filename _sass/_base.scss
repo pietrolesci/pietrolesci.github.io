@@ -684,7 +684,7 @@ html.transition *:after {
 .mybadge {
   color: var(--global-card-bg-color) !important; /* Text color */
   background-color: var(--global-theme-color) !important; /* Background color */
-  padding: 0.2em 0.6em; /* Padding around the text */
+  padding: 0.1em 0.6em; /* Padding around the text */
   border-radius: 0.0em; /* Rounded corners */
   font-size: 0.8em; /* Font size */
   font-weight: bold; /* Font weight for emphasis */
@@ -698,7 +698,7 @@ html.transition *:after {
 .myaward {
   padding: 0.1em 0.6em; /* Reduced padding around the text (top/bottom: 0.2em, left/right: 0.8em) */
   border-radius: 0.0em; /* Rounded corners */
-  font-size: 0.7em; /* Font size */
+  font-size: 0.8em; /* Font size */
   font-weight: bold; /* Font weight for emphasis */
   text-align: center; /* Center the text */
   display: inline-block; /* Make the badge behave like an inline element */
