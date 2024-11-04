@@ -673,3 +673,23 @@ html.transition *:after {
     }
   }
 }
+
+.mystar {
+  color: var(--global-theme-color);
+  font-weight: bold;
+  margin-left: 2px;
+  font-size: 1em;
+}
+
+// .mybadge {
+//   color: var(--global-card-bg-color) !important; /* Text color */
+//   background-color: var(--global-theme-color) !important; /* Background color */
+//   padding: 0.4em 0.8em; /* Padding around the text */
+//   border-radius: 0.99em; /* Rounded corners */
+//   font-size: 0.8em; /* Font size */
+//   font-weight: bold; /* Font weight for emphasis */
+//   text-align: center; /* Center the text */
+//   display: inline-block; /* Make the badge behave like an inline element */
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+//   margin: 0.2em; /* Margin to space out badges */
+// }

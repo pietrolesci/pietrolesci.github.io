@@ -12,7 +12,7 @@ nav_order: 2
 I am passionate about the science of language models: developing methods---also drawing from econometrics---to study the effect of training data on models’ behaviour. Currently, I focus on active learning, data valuation, and memorisation estimation.
 See the up-to-date list of publications on my <a href="https://scholar.google.com/citations?user=uRIcVlAAAAAJ" title="Google Scholar">Google Scholar</a> page.
 
-<span class="star">*</span> denotes equal contribution.
+<span class="mystar">*</span> denotes equal contribution.
 
 
 <!-- _pages/publications.md -->

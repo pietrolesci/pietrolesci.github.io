@@ -40,7 +40,7 @@
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name %}
+            {%- if {{author.last | replace: "*", ""}} == site.scholar.last_name %}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -54,33 +54,39 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
+
+            {% if author.last contains '*' %}
+              {% assign has_star = true %}
+            {% else %}
+              {% assign has_star = false %}
+            {% endif %}
             
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>
+                <em>{{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}</em>
               {%- else -%}
-                {{author.first}} {{author.last}}
+                {{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                  <em>{{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}</a>,&nbsp;
                   {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
+                    {{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}},&nbsp;
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {%- if author_array_limit == author_array_size %} and {% endif %}
                 {% if author_is_self -%}
-                  <em>{{author.first}} {{author.last}}</em>
+                  <em>{{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}</a>
                   {% else -%}
-                    {{author.first}} {{author.last}}
+                    {{author.first}} {{author.last | replace: "*", "<span class='mystar'>*</span>"}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
