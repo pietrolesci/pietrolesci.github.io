@@ -11,13 +11,13 @@
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
-            <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <abbr class="mybadge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
+            <span class="mybadge">{{entry.abbr}}</span>
           {%- endif -%}
         {%- endif -%}
         {%- if entry.award -%}
-          <span class="award badge">{{entry.award}}</span>
+          <span class="myaward">{{entry.award}}</span>
         {%- endif -%}
         </div>
    

@@ -681,15 +681,44 @@ html.transition *:after {
   font-size: 1em;
 }
 
-// .mybadge {
-//   color: var(--global-card-bg-color) !important; /* Text color */
-//   background-color: var(--global-theme-color) !important; /* Background color */
-//   padding: 0.4em 0.8em; /* Padding around the text */
-//   border-radius: 0.99em; /* Rounded corners */
-//   font-size: 0.8em; /* Font size */
-//   font-weight: bold; /* Font weight for emphasis */
-//   text-align: center; /* Center the text */
-//   display: inline-block; /* Make the badge behave like an inline element */
-//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-//   margin: 0.2em; /* Margin to space out badges */
-// }
+.mybadge {
+  color: var(--global-card-bg-color) !important; /* Text color */
+  background-color: var(--global-theme-color) !important; /* Background color */
+  padding: 0.2em 0.6em; /* Padding around the text */
+  border-radius: 0.0em; /* Rounded corners */
+  font-size: 0.8em; /* Font size */
+  font-weight: bold; /* Font weight for emphasis */
+  text-align: center; /* Center the text */
+  display: inline-block; /* Make the badge behave like an inline element */
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* Subtle shadow for depth */
+  margin: 0.2em; /* Margin to space out badges */
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
+
+.myaward {
+  padding: 0.1em 0.6em; /* Reduced padding around the text (top/bottom: 0.2em, left/right: 0.8em) */
+  border-radius: 0.0em; /* Rounded corners */
+  font-size: 0.7em; /* Font size */
+  font-weight: bold; /* Font weight for emphasis */
+  text-align: center; /* Center the text */
+  display: inline-block; /* Make the badge behave like an inline element */
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* Subtle shadow for depth */
+  margin: 0.2em; /* Margin to space out badges */
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+  color: var(--global-theme-color) !important;
+  border: 1px solid var(--global-theme-color);
+}
+
+.col-sm-2 {
+  display: flex;                /* Enable Flexbox */
+  flex-direction: column;       /* Stack items vertically */
+  justify-content: flex-start;  /* Align items to the top */
+  align-items: center;          /* Center items horizontally */
+  height: auto;                 /* Let height adjust based on content */
+  text-align: center;           /* Center text inside */
+}
+
+.col-sm-2 > * {
+  margin: 4px 0;               /* Add vertical space between items */
+}
+
