@@ -65,6 +65,15 @@
   url         = {https://aclanthology.org/2024.naacl-long.467},
   year        = 2024,
 }
+@misc{luo-etal-2024-large,
+  abstract = {While Large Language Models (LLMs) show remarkable performance in various natural language processing tasks, they remain prone to factual inaccuracies and computational errors, including hallucinations and mistakes in mathematical reasoning. To mitigate these limitations, we explore approaches for teaching LLMs to effectively use external tools, including prompting and fine-tuning. Our approach begins with a zero-shot prompting strategy to guide LLMs in tool utilisation. We then curate a tool-using dataset using the LLM itself and fine-tune the model through supervised learning or preference-based techniques. Experiments across four challenging tasks show that tool use enhances performance on complex, long-tail knowledge tasks like PopQA. However, our method sometimes improperly calls the external tools, leading to degraded performance on other datasets. Our findings highlight the potential and challenges of integrating external tool use in LLMs.},
+  author   = {Ne Luo and Aryo Pradipta Gema and Xuanli He and Emile van Krieken and Pietro Lesci and Pasquale Minervini},
+  month    = nov,
+  note     = {Under Review},
+  preprint = {true},
+  title    = {Analysis of Augmenting Large Language Models with Tools in Zero-Shot},
+  year     = 2024,
+}
 @misc{vanderwal-etal-2024-polypythias,
   abstract = {Understanding the stability of language model pre-training and its effects on downstream performance is still understudied. Prior work shows that the training process can yield significantly different results in response to slight variations in initial conditions, e.g., the random seed. Crucially, resources to study pre-training stability in language models are still lacking, especially for decoder-only models. We introduce the PolyPythias, a set of 45 new training runs for the Pythia model suite: 9 new seeds across 5 model sizes, from 14M to 410M parameters, resulting in about 7k new checkpoints that we release. Using these new 45 training runs, in addition to the 5 already available, we study the effects of different initial conditions determined by the seed---i.e., parameters' initialisation and data order---on (i) downstream performance, (ii) learned linguistic representations, and (iii) emergence of training phases. In addition to common scaling behaviours, our analyses generally reveal highly consistent training dynamics across both model sizes and initial conditions. Additionally, the new seeds for each model allow us to identify outlier training runs and delineate their characteristics. Our findings show the potential of using these methods to predict training stability.},
   author   = {{van der Wal}*, Oskar and Lesci*, Pietro and Max M\"{u}ller-Eberstein and Naomi Saphra and Hailey Schoelkopf and Willem Zuidema and Stella Biderman},
@@ -74,3 +83,4 @@
   title    = {{PolyPythias}: {S}tability and Outliers across Fifty Language Model Pre-Training Runs},
   year     = 2024,
 }
+
