@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-In this page, I showcase the invited talks I have given and the workshops I have co-organised. You will find details about the dates, the inviting institutions, and the organisers of these events.
+In this page, I showcase the invited talks I have given and the workshops I have co-organised.
 
 
 <!-- reads from _data/outreach.yml -->
