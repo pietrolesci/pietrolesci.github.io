@@ -24,6 +24,8 @@ jobs:
         bundler-cache: true
     - name: Install Bundler
       run: gem install bundler
+    - name: Clean Bundler environment
+      run: bundle clean --force
     - name: Update Bundler
       run: bundle update --bundler
     - name: Install deps
