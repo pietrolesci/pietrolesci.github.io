@@ -3,7 +3,7 @@ layout: page
 permalink: /research/
 title: research
 # description: Publications by categories in reversed chronological order.
-years: [2024, 2023]
+years: [2025, 2024, 2023]
 nav: true
 nav_order: 2
 ---
@@ -17,10 +17,12 @@ See the up-to-date list of publications on my <a href="https://scholar.google.co
 
 <!-- _pages/publications.md -->
 <div class="publications">
+{% if site.data.papers | where: "preprint", true %}
 <h1>Preprints</h1>
 {%- for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}} && preprint=true] %}
 {% endfor %}
+{% endif %}
 
 <h1>Conference & Journal Articles</h1>
 {%- for y in page.years %}
