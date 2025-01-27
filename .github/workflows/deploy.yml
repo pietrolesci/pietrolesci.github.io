@@ -10,10 +10,7 @@ on:
       - master
       - main
   workflow_dispatch:
-  
-
-    
-
+   
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -25,6 +22,10 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Install Bundler
+      run: gem install bundler
+    - name: Update Bundler
+      run: bundle update --bundler
     - name: Install deps
       run: |
         npm install -g mermaid.cli
@@ -43,4 +44,4 @@ jobs:
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
