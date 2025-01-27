@@ -26,8 +26,8 @@ jobs:
       run: bundle clean --force
     - name: Update Bundler
       run: gem update bundler
-    - name: Install bundle
-      run: bundle install
+    - name: Update Again
+      run: gem update --system
     - name: Install deps
       run: |
         npm install -g mermaid.cli
