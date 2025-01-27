@@ -3,11 +3,9 @@ name: deploy
 on:
   push:
     branches:
-      - master
       - main
   pull_request:
     branches:
-      - master
       - main
   workflow_dispatch:
    
@@ -27,7 +25,7 @@ jobs:
     - name: Clean Bundler environment
       run: bundle clean --force
     - name: Update Bundler
-      run: bundle update --bundler
+      run: gem update bundler
     - name: Install deps
       run: |
         npm install -g mermaid.cli
