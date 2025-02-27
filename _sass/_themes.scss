@@ -64,6 +64,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.4);
   --global-card-bg-color: #{$white-color};
+  --badge-shadow-color: #{$grey-color};
 
   .fa-sun {
     display : none;
@@ -89,6 +90,7 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: rgb(108, 108, 108);
   --global-card-bg-color: #{$grey-900};
+  --badge-shadow-color: #{$cyan-color};
 
   .fa-sun {
     padding-left: 10px;
