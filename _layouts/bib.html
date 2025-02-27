@@ -153,16 +153,25 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          {%- endif %}
-          {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
-          {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {%- if entry.arxiv %}
+            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">
+              <img src="/assets/img/arxiv-logo.svg" alt="arXiv" style="height: 14px; vertical-align: middle;">
+            </a>
+          {%- endif %}
+          {%- if entry.github %}
+            <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">
+              <img src="/assets/img/github-logo.png" alt="GitHub" style="height: 14px; vertical-align: middle;">
+            </a>
+          {%- endif %}
+          {%- if entry.huggingface %}
+            <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">
+              <img src="/assets/img/huggingface_logo-noborder.svg" alt="GitHub" style="height: 14px; vertical-align: middle;">
+            </a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
@@ -180,9 +189,6 @@
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-          {%- endif %}
-          {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
