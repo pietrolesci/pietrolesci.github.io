@@ -1343,3 +1343,14 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+
+// ======
+// My CSS
+// ======
+.mystar {
+  color: var(--global-theme-color);
+  font-weight: bold;
+  margin-left: 2px;
+  font-size: 1em;
+}
