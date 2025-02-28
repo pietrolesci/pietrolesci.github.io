@@ -7,7 +7,7 @@ first_name: Pietro
 middle_name: 
 last_name: Lesci
 contact_note: >
-  Reach me at <a href='mailto:pl487@cam.ac.uk'>pl487@cam.ac.uk</a>.
+  Reach me at <a href='mailto:pl487@cam.ac.uk'>pl487@cam.ac.uk</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Pietro Lesci's personal website
 # footer_text: >
