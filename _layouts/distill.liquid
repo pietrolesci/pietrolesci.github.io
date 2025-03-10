@@ -66,7 +66,8 @@
         <d-byline></d-byline>
       {% endif %}
 
-      <d-article>
+      <!-- change starts from here -->
+      {% comment %} <d-article>
         {% if page.toc %}
           <d-contents>
             <nav class="l-text figcaption">
@@ -89,7 +90,18 @@
           </d-contents>
         {% endif %}
         {{ content }}
+      </d-article> {% endcomment %}
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            {% toc %}
+          </nav>
+        </d-contents>
+
+        {{ content }}
       </d-article>
+      <!-- change ends here -->
 
       <d-appendix>
         <d-footnote-list></d-footnote-list>
