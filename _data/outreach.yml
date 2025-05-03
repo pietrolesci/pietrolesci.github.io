@@ -1,3 +1,31 @@
+awards:
+  - date: 2024-08-14
+    title: "Best Paper Award"
+    event: "The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)"
+    description: Our paper <a href="https://arxiv.org/abs/2406.04327">Causal Estimation of Memorisation Profiles</a> won the Best Paper Award at ACL 2024 (5 out of 2000 submissions).
+    url: https://2024.aclweb.org/program/best_papers/
+    social:
+      - name: X
+        url: https://x.com/aclmeeting/status/1823664612207743110
+  - date: 2025-04-29
+    title: "Paper of the Year"
+    event: "University of Cambridge Department of Computer Science and Technology"
+    description: Our paper <a href="https://arxiv.org/abs/2406.04327">Causal Estimation of Memorisation Profiles</a> was recognised as Paper of the Year (1 out of all publications from the Cambridge's Department of Computer Science and Technology in 2024).
+    url: https://www.cst.cam.ac.uk/ring/awards
+    social:
+      - name: BlueSky
+        url: https://bsky.app/profile/cst.cam.ac.uk/post/3lnxgry63nc2n
+      - name: LinkedIn
+        url: https://www.linkedin.com/posts/cambridge-computer-science-and-technology_we-had-a-great-night-at-our-annual-hall-activity-7322592684429172737-f2vt?utm_source=share&utm_medium=member_desktop&rcm=ACoAABjeH1UBgXxWNZQlUBgogHbkRZhS5evVduA
+  - date: 2024-11-14
+    title: "Outstanding Reviewer"
+    event: "EMNLP 2024"
+    description: "I have been recognised as one of the Outstanding Reviewers for EMNLP 2024."
+    url: https://aclanthology.org/2024.findings-emnlp.0.pdf
+    social:
+      - name: X 
+        url: https://x.com/emnlpmeeting/status/1857169065569292540
+
 invited_talks:
   - date: 2024-10-08
     invited_by: "Julius Cheng and Ieva Raminta Staliunaite"
