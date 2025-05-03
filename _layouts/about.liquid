@@ -51,9 +51,10 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        {% comment %} <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a> {% endcomment %}
+        news
       </h2>
-      {% include news.liquid limit=false %}
+      {% include news.liquid %}
     {% endif %}
 
     <!-- Latest posts -->
