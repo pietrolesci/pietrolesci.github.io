@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bio",
-          title: "bio",
-          description: "A short, formal bio for use in introductions, announcements, and all that.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/bio/";
-          },
-        },{id: "nav-research",
+  },{id: "nav-research",
           title: "research",
           description: "",
           section: "Navigation",
@@ -74,7 +67,7 @@ ninja.data = [{
           section: "News",},{id: "news-happy-to-share-that-our-work-anchoral-computationally-efficient-active-learning-for-large-and-imbalanced-datasets-has-been-accepted-to-naacl-2024-main-joint-work-with-my-supervisor-vlachos-nlp-details-in-post",
           title: '📚 Happy to share that our work AnchorAL: Computationally Efficient Active Learning for...',
           description: "",
-          section: "News",},{id: "news-our-work-on-estimating-memorisation-in-language-models-from-only-observational-data-causal-estimation-of-memorisation-profiles-has-won-the-best-paper-award-at-acl-2024-main-joint-work-with-clara-meister-thomas-hofmann-vlachos-nlp-and-tpimentelms-details-in-post",
+          section: "News",},{id: "news-our-work-on-estimating-memorisation-in-language-models-from-only-observational-data-causal-estimation-of-memorisation-profiles-has-won-the-best-paper-award-at-acl-2024-joint-work-with-clara-meister-thomas-hofmann-vlachos-nlp-and-tpimentelms-details-in-post",
           title: '🚀 Our work on estimating memorisation in language models from only observational data,...',
           description: "",
           section: "News",},{id: "news-our-work-studying-the-challenges-of-training-small-language-models-has-been-accepted-at-emnlp-2024-findings-joint-work-with-richarddm1-and-paula-buttery",
@@ -88,6 +81,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-the-papers-polypythias-stability-and-outliers-across-fifty-language-model-pre-training-runs-first-author-and-self-training-large-language-models-for-tool-use-without-demonstrations-have-been-accepted-respectively-at-iclr-2025-and-naacl-2025-findings",
           title: 'The papers PolyPythias: Stability and Outliers across Fifty Language Model Pre-Training Runs (first...',
+          description: "",
+          section: "News",},{id: "news-our-papers-causal-estimation-of-memorisation-profiles-was-recognised-as-paper-of-the-year-by-cambridge-s-department-of-computer-science-and-technology-1-out-all-publications-from-the-deparment-in-2024-official-announcement-on-bluesky-and-linkedin",
+          title: 'Our papers Causal Estimation of Memorisation Profiles was recognised as Paper of the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
