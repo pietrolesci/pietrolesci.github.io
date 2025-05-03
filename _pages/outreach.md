@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-In this page, I list the awards I received, the invited talks I have given, and the workshops I have co-organised.
+In this page, I list the awards I have received, the invited talks I have given, and the workshops I have co-organised.
 
 
 <!-- reads from _data/outreach.yml -->

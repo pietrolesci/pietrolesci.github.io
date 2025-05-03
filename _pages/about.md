@@ -39,7 +39,7 @@ My research intersects causal methods, active learning, tokenisation, and pre-tr
 <!-- I have a background in econometrics, from which I like drawing methods to study causal effects without interventional studies (e.g., retraining a model).  -->
 
 My work has been presented at major machine learning conferences such as ICLR, ACL, NAACL, and EMNLP. 
-I received a [Best Paper Award](https://2024.aclweb.org/program/best_papers/) at ACL 2024 and funding from the Translated Imminent [Research Grant](https://imminent.translated.com/the-5-innovative-projects-awarded-with-imminent-research-grants-2023) for my research contributions. 
+I received the [Best Paper Award](https://2024.aclweb.org/program/best_papers/) at ACL 2024, the [Paper of the Year Award](https://www.cst.cam.ac.uk/ring/awards) from Cambridge's Department of Computer Science and Technology, and funding from Translated's [Imminent Research Grant](https://imminent.translated.com/the-5-innovative-projects-awarded-with-imminent-research-grants-2023) for my research contributions. 
 You can find the complete list of publications and related links on the [/research](research) page. I also keep my [<img src="assets/img/huggingface_logo-noborder.svg" alt="Hugging Face" style="height: 1em; vertical-align: middle;"> profile](https://huggingface.co/pietrolesci) updated: each paper is linked to a collection listing all the relevant artefacts.
 
 
