@@ -27,6 +27,9 @@ awards:
         url: https://x.com/emnlpmeeting/status/1857169065569292540
 
 invited_talks:
+  - date: 2025-05-30
+    invited_by: "Prof Weiwei Sun (<a href='https://www.cst.cam.ac.uk/seminars/list/225856'>talk page</a>)"
+    institution: "University of Cambridge, Department of Computer Science and Technology"
   - date: 2024-10-08
     invited_by: "Julius Cheng and Ieva Raminta Staliunaite"
     institution: "NLIP Reading Group @ the University of Cambridge"
