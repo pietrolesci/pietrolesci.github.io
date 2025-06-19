@@ -34,20 +34,20 @@ invited_talks:
     invited_by: "Julius Cheng and Ieva Raminta Staliunaite"
     institution: "NLIP Reading Group @ the University of Cambridge"
   - date: 2024-10-10
-    invited_by: "Prof Nedjma Ousidhoum and Prof Jose Camacho Collados"
+    invited_by: "Prof Nedjma Ousidhoum and Prof Jose Camacho Collados (<a href='https://cardiffnlp.github.io/event/2024-10-10/'>talk page</a>)"
     institution: "Cardiff University, School of Computer Science and Informatics"
   - date: 2024-10-14
-    invited_by: "Ryan Chan, Giulia Occhini, and Federico Nanni"
+    invited_by: "Ryan Chan, Giulia Occhini, and Federico Nanni (<a href='https://github.com/alan-turing-institute/robots-in-disguise/blob/main/PREVIOUS.md#141024'>talk page</a>)"
     institution: "The Alan Turing Institute"
   - date: 2024-11-06
     invited_by: "Xianda Sun, Ben Slater, and Isaac Reid"
-    institution: "Machine Learning Reading Group @ CUED at the University of Cambridge"
+    institution: "Machine Learning Reading Group @ CUED at the University of Cambridge (<a href='https://talks.cam.ac.uk/talk/index/224137'>talk page</a>)"
   - date: 2024-11-12
     invited_by: "Prof Mateja Jamnik"
-    institution: "University of Cambridge, Department of Computer Science and Technology"
+    institution: "University of Cambridge, Department of Computer Science and Technology (<a href='https://talks.cam.ac.uk/talk/index/223093'>talk page</a>)"
   - date: 2024-11-15
-    invited_by: "Prof Qingyuan Zhao"
-    institution: "University of Cambridge, Department of Pure Mathematics and Mathematical Statistics"
+    invited_by: "Martina Scauda, Prof Qingyuan Zhao"
+    institution: "University of Cambridge, Department of Pure Mathematics and Mathematical Statistics (<a href='https://talks.cam.ac.uk/talk/index/224398'>talk page</a>)"
   - date: 2024-11-20
     invited_by: "Prof Anne Lauscher"
     institution: "University of Hamburg"
