@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-In this page, I list the awards I have received, the invited talks I have given, and the workshops I have co-organised.
+In this page, I list the awards I have received, the workshops I have co-organised, and the invited talks I have given.
 
 
 <!-- reads from _data/outreach.yml -->
@@ -45,32 +45,6 @@ In this page, I list the awards I have received, the invited talks I have given,
                     {% endfor %}
                 {% endif %}
             </td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
-
-## Invited Talks
-<table class="table table-hover table-sm">
-    <colgroup>
-        <col style="width: auto;">
-        <col style="width: auto;">
-        <col style="width: auto;">
-    </colgroup>
-    <thead>
-        <tr>
-            <th scope="col">Date</th>
-            <th scope="col">Invited By</th>
-            <th scope="col">Institution</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% assign sorted_talks = site.data.outreach.invited_talks | sort: 'date' | reverse %}
-        {% for talk in sorted_talks %}
-        <tr>
-            <th scope="row">{{ talk.date | date: "%d %b %Y" }}</th>
-            <td>{{ talk.invited_by }}</td>
-            <td>{{ talk.institution }}</td>
         </tr>
         {% endfor %}
     </tbody>
@@ -121,3 +95,33 @@ In this page, I list the awards I have received, the invited talks I have given,
         {% endfor %}
     </tbody>
 </table>
+
+
+## Invited Talks
+
+<table class="table table-hover table-sm">
+    <colgroup>
+        <col style="width: auto;">
+        <col style="width: auto;">
+        <col style="width: auto;">
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Invited By</th>
+            <th scope="col">Institution</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign sorted_talks = site.data.outreach.invited_talks | sort: 'date' | reverse %}
+        {% for talk in sorted_talks %}
+        <tr>
+            <th scope="row">{{ talk.date | date: "%d %b %Y" }}</th>
+            <td>{{ talk.invited_by }}</td>
+            <td>{{ talk.institution }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
