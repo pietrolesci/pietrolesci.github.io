@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Computer Science at the [University of Cambridge](https://www.cst.cam.ac.uk/) advised by Prof [Andreas Vlachos](https://andreasvlachos.github.io/). 
-I have a background in economics and 3+ years experience across research labs, consulting firms, and international institutions training custom models and developing data science solutions. Find my cv here <a href="assets/pdf/pietro_lesci_cv.pdf"><i class="fas fa-file-pdf"></i></a>.
+I am a final-year PhD student in Computer Science at the [University of Cambridge](https://www.cst.cam.ac.uk/) advised by Prof [Andreas Vlachos](https://andreasvlachos.github.io/). 
+I have a background in economics and 3+ years of experience across research labs, consulting firms, and international institutions training custom models and developing data science solutions. Find my cv here <a href="assets/pdf/pietro_lesci_cv.pdf"><i class="fas fa-file-pdf"></i></a>.
 
 I am currently interested in understanding how training data influences a model’s behaviour.
 To study this question, I draw methods from econometrics.
