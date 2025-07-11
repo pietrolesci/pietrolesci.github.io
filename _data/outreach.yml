@@ -27,6 +27,9 @@ awards:
         url: https://x.com/emnlpmeeting/status/1857169065569292540
 
 invited_talks:
+  - data: 2025-07-11
+    invited_by: "Kate Taylor and Patrick Motylinski"
+    institution: "CGI"
   - date: 2025-06-27
     invited_by: "Paul Röttger, MilaNLP"
     institution: "Bocconi University"
